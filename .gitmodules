@@ -1,4 +1,4 @@
 [submodule "config/nvim"]
 	path = config/nvim
 	url = https://github.com/Sstmtz/nvimconf
-  branch = v2.0
+	branch = v2.0
