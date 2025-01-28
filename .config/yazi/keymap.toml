@@ -1,0 +1,25 @@
+[manager]
+prepend_keymap = [
+  # pirafrank/what-size.yazi
+  { on = [
+    ".",
+    "s",
+  ], run = "plugin what-size --args='--clipboard'", desc = "Calc size of selection or cwd" },
+  # Lil-Dank/lazygit.yazi, need install `lazygit`
+  { on = [
+    "g",
+    "i",
+  ], run = "plugin lazygit", desc = "run lazygit" },
+  # yazi-rs/plugins:hide-preview
+  { on = [
+    "T",
+  ], run = "plugin hide-preview", desc = "Hide or show preview" },
+  # yazi-rs/plugins:max-preview
+  { on = [
+    "M",
+  ], run = "plugin max-preview", desc = "Maximize or restore preview" },
+  # grappas/wl-clipboard.yazi, need install `wl-clipboard`
+  { on = [
+    "<C-y>",
+  ], run = "plugin wl-clipboard" },
+]
