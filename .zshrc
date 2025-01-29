@@ -68,10 +68,10 @@ elif pacman -Qi paru &>/dev/null; then
 fi
 
 # Add the context of .env to environment
-temp_file=$(mktemp)
-grep -v '\s*#' $HOME/.env > "$temp_file"
-eval export $(envsubst < "$temp_file")
-rm "$temp_file"
+# temp_file=$(mktemp)
+# grep -v '\s*#' $HOME/.env > "$temp_file"
+# eval export $(envsubst < "$temp_file")
+# rm "$temp_file"
 
 # ▄▀█ █░░ █ ▄▀█ █▀
 # █▀█ █▄▄ █ █▀█ ▄█
