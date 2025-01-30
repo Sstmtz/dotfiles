@@ -21,18 +21,18 @@
     },
     {
       "type": "chassis",
-      "key": "  󰇺 Chassis",
+      "key": "  󰇺 Chassis ",
       "format": "{1} {2} {3}"
     },
     {
       "type": "os",
-      "key": "  󰣇 OS",
+      "key": "  󰣇 OS      ",
       "format": "{2} ({12})",
       "keyColor": "red"
     },
     {
       "type": "kernel",
-      "key": "   Kernel",
+      "key": "   Kernel  ",
       "format": "{2}",
       "keyColor": "red"
     },
@@ -43,7 +43,7 @@
     },
     {
       "type": "display",
-      "key": "  󰍹 Display",
+      "key": "  󰍹 Display ",
       "format": "{1}x{2} @ {3}Hz in {12}\" [{7}]",
       "keyColor": "green"
     },
@@ -54,7 +54,7 @@
     },
     {
       "type": "shell",
-      "key": "   Shell",
+      "key": "   Shell   ",
       "keyColor": "yellow"
     },
     {
@@ -110,7 +110,7 @@
     },
     {
       "type": "disk",
-      "key": "   Disk ",
+      "key": "   Disk   ",
       "keyColor": "cyan"
     },
     {
