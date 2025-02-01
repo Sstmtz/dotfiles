@@ -1,5 +1,16 @@
 # Dotfiles
 
+## Requirement
+
+You need to install [chezmoi](https://github.com/twpayne/chezmoi) first.
+
+```sh
+# by pacman
+sudo pacman -S chezmoi
+```
+
+After cloning this repo, you need to run `install_pkg.sh` in script directory to install required packages.
+
 ## Installation
 
 ### Directly clone the dotfiles
