@@ -28,7 +28,7 @@ chezmoi init --apply https://github.com/Sstmtz/dotfiles.git
 The main branch is managed using [stow](https://github.com/aspiers/stow), which creates many symbolic links in the home directory pointing to the corresponding files in the dotfiles directory. If you want to switch to chezmoi for management, using `chezmoi add` directly will result in adding link files instead of the actual files themselves. You just need to add the `--follow` flag.
 
 - References:
-  - [Migrate away from chezmoi](https://www.chezmoi.io/user-guide/advanced/migrate-away-from-chezmoi/)
+  - [Migrating from another dotfile manager](https://www.chezmoi.io/migrating-from-another-dotfile-manager/)
 
 ```sh
 chezmoi add --follow <your_symlink>
