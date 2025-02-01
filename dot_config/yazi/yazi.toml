@@ -1,0 +1,28 @@
+[plugin]
+prepend_previewers = [
+  # Reledia/glow.yazi, need install `glow`
+  { name = "*.md", run = "glow" }, # .md
+
+  # Reledia/miller.yazi, need install `miller`
+  { mime = "text/csv", run = "miller" }, # .csv
+
+  # ndtoan96/ouch.yazi, need install `ouch`
+  { mime = "application/*zip", run = "ouch" },            # .zip
+  { mime = "application/x-tar", run = "ouch" },           # .tar
+  { mime = "application/x-bzip2", run = "ouch" },         # .bz, .bz2
+  { mime = "application/x-7z-compressed", run = "ouch" }, # .7z
+  { mime = "application/x-rar", run = "ouch" },           # .rar
+  { mime = "application/x-xz", run = "ouch" },            # .xz, .lzma
+
+  # boydaihungst/mediainfo.yazi, need install `mediainfo` and `ffmpeg`
+  { mime = "image/*", run = "mediainfo" },
+  { mime = "video/*", run = "mediainfo" },            # .mkv
+  { mime = "audio/*", run = "mediainfo" },
+  { mime = "application/subrip", run = "mediainfo" }, # .srt
+
+  # Sonico98/exifaudio.yazi, nedd install `perl-image-exiftool`
+  { mime = "audio/*", run = "exifaudio" }, # .mp3
+
+  # kirasok/torrent-preview.yazi, need install `transmission-cli`
+  { mime = "application/x-bittorrent", run = "torrent-preview" }, # .torrent
+]
