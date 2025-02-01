@@ -1,0 +1,69 @@
+# --------------------------------------------------- // Basic
+curl                                                  # a command line tool and library for transferring data with URL syntax
+wget                                                  # a network utility to retrieve files from the web
+git                                                   # the fast distributed version control system
+npm                                                   # javascript package manager
+make                                                  # GNU make utility to maintain groups of programs
+ninja                                                 # small build system with a focus on speed
+cmake                                                 # a cross-platform open-source make system
+meson                                                 # high productivity build system
+gcc                                                   # the GNU compiler collection - C and C++ frontends
+clang                                                 # C language family frontend for LLVM
+jq                                                    # a command line JSON processor
+parallel                                              # for parallel processing
+imagemagick                                           # for image processing
+libnotify                                             # for notifications
+tar                                                   # utility used to store, backup, and transport files
+unzip                                                 # for extracting and viewing files in .zip archives
+ffmpeg                                                # complete solution to record, convert and stream audio and video
+vim                                                   # a text editor
+
+# --------------------------------------------------- // Shell
+zsh                                                   # a shell
+fish                                                  # a shell
+oh-my-zsh-git                                         # a zsh plugin manager
+zsh-completions                                       # a zsh plugin
+zsh-theme-powerlevel10k-git                           # a zsh theme
+starship
+
+# --------------------------------------------------- // Terminal
+kitty                                                 # a terminal emulator
+alacritty                                             # a terminal emulator
+tmux                                                  # a terminal multiplexer
+zellij                                                # a terminal multiplexer
+
+# --------------------------------------------------- // Scripts
+pokemon-colorscripts-git                              # prints out colored unicode sprites of pokemon onto your termina
+
+# --------------------------------------------------- // Utilities
+eza                                                   # better ls
+zoxide                                                # better cd
+bat                                                   # better cat
+ripgrep                                               # better grep
+fd                                                    # better find
+
+glow                                                  # a markdown previewer
+miller                                                # a name-indexed data processing tool
+ouch                                                  # a command line utility for easily compressing and decompressing files and directories
+mediainfo                                             # supplies technical and tag information about media files (CLI interface)
+perl-image-exiftool                                   # a reader and rewriter of EXIF information that supports raw files
+transmission-cli                                      # a fast, easy, and free BitTorrent client (CLI tools, daemon and web client)
+
+lazygit                                               # a simple terminal UI for git commands
+lazydocker                                            # a simple terminal UI for docker commands
+
+# --------------------------------------------------- // Applications
+neovim                                                # a vim fork focused on improving user experience, plugins, and GUIs
+code                                                  # Code OSS
+ark                                                   # KDE archive manager
+
+go-musicfox-bin                                       # a command-line Netease Cloud Music written in Go. (Precompiled version)
+
+fcitx5
+fcitx5-configtool
+fcitx5-chinese-addons
+fcitx5-qt
+fcitx5-gtk
+fcitx5-pinyin-zhwiki
+fcitx5-pinyin-sougou
+fcitx5-mellow-themes-git
