@@ -1,6 +1,6 @@
 # Dotfiles
 
-## Requirement
+## Requirements
 
 You need to install [chezmoi](https://github.com/twpayne/chezmoi) first.
 
