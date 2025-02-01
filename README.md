@@ -43,4 +43,4 @@ I usually use both of them at the same time, but I mainly use stow because it is
 2. The symbolic links allow me to easily see which files are managed by dotfiles when I browse the home directory.
 3. Creating a symbolic link takes up less space than copying a file.
 
-However, symbolic links are not secure; they can become corrupted for various reasons and may not be easily noticeable. Therefore, I use chezmoi as a backup in case of unexpected issues.
+However, symbolic links are not secure. They can become corrupted for various reasons and may not be easily noticeable. Therefore, I use chezmoi as a backup in case of unexpected issues.
