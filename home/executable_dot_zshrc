@@ -117,4 +117,3 @@ export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/docker.sock # local docker socket
 # eval
 
 eval "$(starship init zsh)" # enable starship
-
