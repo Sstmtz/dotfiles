@@ -1,0 +1,9 @@
+.git
+.gitignore
+
+scripts
+.config/fastfetch/logos
+
+README.md
+TODO.md
+How-To-Use-Stow.md
