@@ -58,3 +58,12 @@ code                                                  # Code OSS
 ark                                                   # KDE archive manager
 
 go-musicfox-bin                                       # a command-line Netease Cloud Music written in Go. (Precompiled version)
+
+fcitx5
+fcitx5-configtool
+fcitx5-chinese-addons
+fcitx5-qt
+fcitx5-gtk
+fcitx5-pinyin-zhwiki
+fcitx5-pinyin-sougou
+fcitx5-mellow-themes-git

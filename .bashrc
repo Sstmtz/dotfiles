@@ -1,0 +1,71 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/usr/bin/conda' 'shell.bash' 'hook' 2>/dev/null)"
+if [ $? -eq 0 ]; then
+	eval "$__conda_setup"
+else
+	if [ -f "/usr/etc/profile.d/conda.sh" ]; then
+		. "/usr/etc/profile.d/conda.sh"
+	else
+		export PATH="/usr/bin:$PATH"
+	fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+# Detect AUR wrapper
+if pacman -Qi yay &>/dev/null; then
+	aurhelper="yay"
+elif pacman -Qi paru &>/dev/null; then
+	aurhelper="paru"
+fi
+
+# ▄▀█ █░░ █ ▄▀█ █▀
+# █▀█ █▄▄ █ █▀█ ▄█
+# alias
+
+# Common
+alias cls='clear'
+alias mkdir='mkdir -p'
+
+# List shortcuts
+alias l='eza -lh --icons=auto'                                         # long list
+alias ls='eza -1 --icons=auto'                                         # short list
+alias ll='eza -lha --icons=auto --sort=name --group-directories-first' # long list all
+alias ld='eza -lhD --icons=auto'                                       # long list dirs
+alias lt='eza --icons=auto --tree'                                     # list folder as tree
+
+# Directory navigation shortcuts
+alias ..='cd ..'
+alias ...='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
+
+# Package manager shortcuts
+alias un='$aurhelper -Rns'                      # uninstall package
+alias up='$aurhelper -Syu'                      # update system/package/aur
+alias pl='$aurhelper -Qs'                       # list installed package
+alias pa='$aurhelper -Ss'                       # list available package
+alias pc='$aurhelper -Sc'                       # remove unused cache
+alias po='$aurhelper -Qtdq | $aurhelper -Rns -' # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
+alias vc='code'                                 # gui code editor
+
+# █▀▀ ▀▄▀ █▀█ █▀█ █▀█ ▀█▀
+# ██▄ █░█ █▀▀ █▄█ █▀▄ ░█░
+# export
+
+export EDITOR='nvim'                                   # set default editor
+export PATH=$PATH:$HOME/.local/share/bin               # add local bin to PATH
+export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/docker.sock # local docker socket
