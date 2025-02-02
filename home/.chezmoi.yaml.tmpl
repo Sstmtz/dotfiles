@@ -1,0 +1,19 @@
+{{- $git_email := promptStringOnce . "git_email" "Your git email address" -}}
+{{- $git_username := promptStringOnce . "git_username" "Your git username" -}}
+
+data:
+  git_username: {{ $git_username | quote }}
+  git_email: {{ $git_email | quote }}
+
+editor:
+  edit:
+    command: "neovim" # or vim
+
+git:
+  autoCommit: false
+  autoPush: false
+
+encryption: "age"
+age:
+  identity: "~/.config/chezmoi/key.txt"
+  recipient: "age1frvy8pu9kgzkzs3ruurlz63wcxgp3nuwdmjf0r5tefcmqpdg44jsu3wucg"
