@@ -46,6 +46,17 @@ chezmoi add --follow <your_symlink>
 # --follow: replace the <your_symlink> symlink with the file contents.
 ```
 
+## Encryption
+
+It is important to note that since some files are encrypted, running `chezmoi apply` after you complete `chezmoi init` to clone this repository will result in related errors. Don't worry; the non-encrypted files have already been copied to your home directory.
+
+**The following paragraph is addressed to myself, but if you want to encrypt files in your own dotfiles, you can refer to them.**
+
+My partial files are encrypted using tools like [gpg](https://github.com/gpg/gnupg) or [age](https://github.com/FiloSottile/age), for example, ssh. You can use the `decrypt-private-key.sh` script in the scripts directory and enter the key to decrypt them. Finally, generate the `key.txt` public key in the ~/.config/chezmoi directory, and then run `chezmoi apply`.
+
+- References:
+  - [How do I configure chezmoi to encrypt files but only request a passphrase the first time chezmoi init is run?](https://www.chezmoi.io/user-guide/frequently-asked-questions/encryption/)
+
 ## Why is there this branch?
 
 I usually use both of them at the same time, but I mainly use stow because it is simple and intuitive.
