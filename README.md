@@ -9,7 +9,7 @@ You need to install [chezmoi](https://github.com/twpayne/chezmoi) first.
 sudo pacman -S chezmoi
 ```
 
-After cloning this repo, you need to run `install_pkg.sh` in script directory to install required packages.
+After cloning this repo, you need to run `install_pkg.sh` in scripts directory to install required packages.
 
 ## Installation
 
@@ -25,13 +25,13 @@ Finally, run `chezmoi apply -v` to apply the changes to your home directory.
 
 ```sh
 # by HTTPS (default)
-chezmoi init https://github.com/Sstmtz/dotfiles.git
+chezmoi init --branch chezmoi https://github.com/Sstmtz/dotfiles.git
 # by SSH, add --ssh 
-chezmoi init --ssh git@github.com:Sstmtz/dotfiles.git
+chezmoi init --branch chezmoi --ssh git@github.com:Sstmtz/dotfiles.git
 chezmoi apply -v
 
 # single command
-chezmoi init --apply https://github.com/Sstmtz/dotfiles.git
+chezmoi init --branch chezmoi --apply https://github.com/Sstmtz/dotfiles.git
 ```
 
 ### Migrate from a dotfile manager that uses symlinks
