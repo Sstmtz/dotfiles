@@ -16,8 +16,8 @@ prepend_previewers = [
 
   # boydaihungst/mediainfo.yazi, need install `mediainfo` and `ffmpeg`
   { mime = "image/*", run = "mediainfo" },
-  { mime = "video/*", run = "mediainfo" },            # .mkv
-  { mime = "audio/*", run = "mediainfo" },
+  { mime = "video/*", run = "mediainfo" }, # .mkv
+  # { mime = "audio/*", run = "mediainfo" },
   { mime = "application/subrip", run = "mediainfo" }, # .srt
 
   # Sonico98/exifaudio.yazi, nedd install `perl-image-exiftool`
