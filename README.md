@@ -52,17 +52,19 @@ It is important to note that since some files are encrypted, running `chezmoi ap
 
 **The following paragraph is addressed to myself, but if you want to encrypt files in your own dotfiles, you can refer to them.**
 
-My partial files are encrypted using tools like [gpg](https://github.com/gpg/gnupg) or [age](https://github.com/FiloSottile/age), for example, ssh. You can use the `decrypt-private-key.sh` script in the scripts directory and enter the key to decrypt them. Finally, generate the `key.txt` public key in the ~/.config/chezmoi directory, and then run `chezmoi apply`.
+My partial files (such as `ssh`) are encrypted using tools like [gpg](https://github.com/gpg/gnupg) or [age](https://github.com/FiloSottile/age). You can use the `decrypt-private-key.sh` script in the scripts directory and enter the key to decrypt them. Finally, generate the `key.txt` public key in the ~/.config/chezmoi directory, and then run `chezmoi apply`.
 
 - References:
   - [How do I configure chezmoi to encrypt files but only request a passphrase the first time chezmoi init is run?](https://www.chezmoi.io/user-guide/frequently-asked-questions/encryption/)
 
 ## Why is there this branch?
 
-I usually use both of them at the same time, but I mainly use stow because it is simple and intuitive.
+`chezmoi` provides more functions and higher security, especially its integration with git, which makes it easier for me to manage and deploy my dotfiles. Of course, I used `stow` at first.
+
+Actually, I usually use both of them at the same time, but I mainly use `stow` because it is simple and intuitive.
 
 1. The symbolic link points to the file itself, so changes take effect immediately without the need for manual submission.
 2. The symbolic links allow me to easily see which files are managed by dotfiles when I browse the home directory.
 3. Creating a symbolic link takes up less space than copying a file.
 
-However, symbolic links are not secure. They can become corrupted for various reasons and may not be easily noticeable. Therefore, I use chezmoi as a backup in case of unexpected issues.
+However, symbolic links are not secure. They can become corrupted for various reasons and may not be easily noticeable. Therefore, I use `chezmoi` as a backup in case of unexpected issues.
