@@ -1,0 +1,12 @@
+# --------------------------------------------------- // Terminal emulator
+kitty
+alacritty
+
+# --------------------------------------------------- // Terminal multiplexer
+tmux
+zellij
+
+# --------------------------------------------------- // Terminal tools
+vim                                                   # a text editor
+neovim                                                # a text editor
+yazi                                                  # a file manager

@@ -1,0 +1,8 @@
+# --------------------------------------------------- // Basic
+fish                                                  # a shell
+
+# --------------------------------------------------- // Common
+starship
+
+# --------------------------------------------------- // Scripts
+pokemon-colorscripts-git                              # prints out colored unicode sprites of pokemon onto your terminal

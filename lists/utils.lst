@@ -1,0 +1,18 @@
+# --------------------------------------------------- // Enhanced
+eza                                                   # better ls
+zoxide                                                # better cd
+bat                                                   # better cat
+ripgrep                                               # better grep
+fd                                                    # better find
+
+# --------------------------------------------------- // Utilities for yazi
+glow                                                  # a markdown previewer
+miller                                                # a name-indexed data processing tool
+ouch                                                  # a command line utility for easily compressing and decompressing files and directories
+mediainfo                                             # supplies technical and tag information about media files (CLI interface)
+perl-image-exiftool                                   # a reader and rewriter of EXIF information that supports raw files
+transmission-cli                                      # a fast, easy, and free BitTorrent client (CLI tools, daemon and web client)
+
+# --------------------------------------------------- // Utilities for nvim
+lazygit                                               # a simple terminal UI for git commands
+lazydocker                                            # a simple terminal UI for docker commands
