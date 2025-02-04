@@ -1,13 +1,16 @@
 #!/bin/env bash
 
+# keymap
 ya pack -a pirafrank/what-size
 ya pack -a Lil-Dank/lazygit
 ya pack -a yazi-rs/plugins:hide-preview
 ya pack -a yazi-rs/plugins:max-preview
 ya pack -a grappas/wl-clipboard
 
+# flavor
 ya pack -a BennyOe/tokyo-night
 
+# previewers
 ya pack -a Reledia/glow
 ya pack -a Reledia/miller
 ya pack -a ndtoan96/ouch
