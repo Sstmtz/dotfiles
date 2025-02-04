@@ -1,6 +1,5 @@
 #!/bin/env bash
 
-# 定义要添加的变量
 input_method='INPUT_METHOD=fcitx'
 xmodifiers='XMODIFIERS="@im=fcitx"'  # xim for xwayland support
 sdl_im_module='SDL_IM_MODULE=fcitx'  # for sdl2 support
