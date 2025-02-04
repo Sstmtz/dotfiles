@@ -1,0 +1,15 @@
+# --------------------------------------------------- // Basic
+zsh                                                   # a shell
+
+# --------------------------------------------------- // Plugins
+oh-my-zsh-git                                         # plugin manager
+zsh-completions                                       # completions for zsh
+
+# --------------------------------------------------- // Themes
+zsh-theme-powerlevel10k-git                           # powerlevel10k theme
+
+# --------------------------------------------------- // Common
+starship
+
+# --------------------------------------------------- // Scripts
+pokemon-colorscripts-git                              # prints out colored unicode sprites of pokemon onto your terminal

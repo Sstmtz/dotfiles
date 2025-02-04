@@ -2,6 +2,7 @@
 .gitignore
 
 scripts
+lists
 .config/fastfetch/logos
 
 README.md
