@@ -2,15 +2,18 @@
 # ▄█ █▄▄ █▀▄ █ █▀▀ ░█░ ▄█
 # scripts
 
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
+# Display Pokemon (need install pokemon-colorscripts-git)
+pokemon-colorscripts --no-title -r 1,3,6
 
 # Detect AUR wrapper
 if pacman -Qi yay >/dev/null
     set aurhelper yay
 else if pacman -Qi paru >/dev/null
     set aurhelper paru
+end
+
+if status is-interactive
+    # Commands to run in interactive sessions can go here
 end
 
 # ▄▀█ █░░ █ ▄▀█ █▀
