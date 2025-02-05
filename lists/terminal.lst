@@ -9,4 +9,6 @@ zellij
 # --------------------------------------------------- // Terminal tools
 vim                                                   # a text editor
 neovim                                                # a text editor
-yazi                                                  # a file manager
+# emacs
+yazi                                                  # a file manager (TUI)
+# ranger                                              # a file manager (TUI)

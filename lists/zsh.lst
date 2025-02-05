@@ -13,3 +13,20 @@ starship
 
 # --------------------------------------------------- // Scripts
 pokemon-colorscripts-git                              # prints out colored unicode sprites of pokemon onto your terminal
+
+# Repos:
+######### Basic
+# [zsh](https://github.com/zsh-users/zsh)
+######### Plugins
+# [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+# [zsh-completions](https://github.com/zsh-users/zsh-completions)
+######### Themes
+# [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+######### Common
+# [starship](https://github.com/starship/starship)
+######### Scripts
+# [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts)
+
+# References:
+#########
+#

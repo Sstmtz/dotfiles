@@ -1,13 +1,31 @@
 # --------------------------------------------------- // Basic
-fcitx5
-fcitx5-qt
-fcitx5-gtk
-fcitx5-configtool
+fcitx5                                                # Input method framework
+fcitx5-qt                                             # GTK im module and glib based dbus client library
+# fcitx5-qt4-git                                        # (!bad compile) fcitx5 Qt Library (Qt4 integrations)
+fcitx5-gtk                                            # fcitx5 Qt Library (Qt5 & Qt6 integrations)
+fcitx5-configtool                                     # fcitx5 configtool (GUI)
 
 # --------------------------------------------------- // Themes
-fcitx5-mellow-themes-git
+fcitx5-mellow-themes-git                              # mellow themes for fcitx5
 
-# --------------------------------------------------- // for chinese
-fcitx5-chinese-addons
-fcitx5-pinyin-zhwiki
-fcitx5-pinyin-sougou
+# --------------------------------------------------- // Language Addons
+# fcitx5-sogou                                          # Sogou Pinyin for Linux
+fcitx5-chinese-addons                                 # (Chinese) Addons related to Chinese
+fcitx5-pinyin-zhwiki                                  # (Chinese) Pinyin Dictionary from zh.wikipedia.org
+# fcitx5-pinyin-sougou                                  # (!unmaintained) (Chinese) Pinyin Dictionary from https://pinyin.sogou.com/dict/
+# fcitx5-pinyin-sougou-dict                             # (Chinese) Pinyin Dictionary from https://pinyin.sogou.com/dict/
+fcitx5-pinyin-sougou-dict-git                         # (Chinese) Pinyin Dictionary from https://pinyin.sogou.com/dict/
+
+# Repos:
+######### Basic
+# [fcitx5-qt](https://github.com/fcitx/fcitx5-qt)
+# [fcitx5-gtk](https://github.com/fcitx/fcitx5-gtk)
+######### Themes
+# [fcitx5-mellow-themes-git](https://github.com/sanweiya/fcitx5-mellow-themes)
+######### Language Addons
+# [fcitx5-chinese-addons](https://github.com/fcitx/fcitx5-chinese-addons)
+# [fcitx5-pinyin-zhwiki](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)
+
+# References:
+#########
+# [ArchWiki: Fcitx5](https://wiki.archlinux.org/title/Fcitx5)

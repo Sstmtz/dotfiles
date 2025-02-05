@@ -6,3 +6,15 @@ starship
 
 # --------------------------------------------------- // Scripts
 pokemon-colorscripts-git                              # prints out colored unicode sprites of pokemon onto your terminal
+
+# Repos:
+######### Basic
+# [fish-shell](https://github.com/fish-shell/fish-shell)
+######### Common
+# [starship](https://github.com/starship/starship)
+######### Scripts
+# [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts)
+
+# References:
+#########
+#
