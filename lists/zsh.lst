@@ -9,7 +9,7 @@ zsh-completions                                       # completions for zsh
 zsh-theme-powerlevel10k-git                           # powerlevel10k theme
 
 # --------------------------------------------------- // Common
-starship
+starship                                              # The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 # --------------------------------------------------- // Scripts
 pokemon-colorscripts-git                              # prints out colored unicode sprites of pokemon onto your terminal

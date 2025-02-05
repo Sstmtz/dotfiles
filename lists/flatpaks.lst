@@ -1,10 +1,48 @@
 # --------------------------------------------------- // Themes
 org.gtk.Gtk3theme.Materia{,-dark,-light}{,-compact}   # Materia Theme for GTK
 
+# --------------------------------------------------- // System
+io.github.flattool.Warehouse                          # Manage all things Flatpak
+com.github.tchx84.Flatseal                            # Manage Flatpak permissions
+org.kde.filelight                                     # Show disk usage and delete unused files
+io.missioncenter.MissionCenter                        # Monitor system resource usage
+net.nokyan.Resources                                  # Keep an eye on system resources
+io.github.plrigaux.sysd-manager                       # A GUI to manage systemd units
+org.bleachbit.BleachBit                               # Cleans files to free disk space and to maintain privacy
+
+# --------------------------------------------------- // Video & Audio
+io.github.Predidit.Kazumi                             # Watch Animes online with danmaku support
+io.github.waylyrics.Waylyrics                         # Show desktop lyrics in a furry way
+io.github.hypengw.Qcm                                 # Material3 cloud music player
+com.dec05eba.gpu_screen_recorder                      # A shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux
+
+# --------------------------------------------------- // Game
+org.zdoom.GZDoom                                      # Game engine for Classic Doom
+io.github.Youda008.DoomRunner                         # Preset-oriented graphical launcher of various ported Doom engines (an alternative to ZDL)
+com.qzandronum.Q-Zandronum                            # A Zandronum 3.0 fork with improved netcode, configurable movement and many small tweaks
+com.usebottles.bottles                                # Run Windows Software
+
+# --------------------------------------------------- // Productivity
+org.libreoffice.LibreOffice                           # The LibreOffice productivity suite
+com.github.jeromerobert.pdfarranger                   # Merge, shuffle, and crop PDFs
+
+# --------------------------------------------------- // Utilities
+org.kde.kleopatra                                     # Certificate manager and cryptography app
+eu.betterbird.Betterbird                              # A better version of Thunderbird
+org.qbittorrent.qBittorrent                           # An open-source Bittorrent client
+com.github.tenderowl.frog                             # Extract text from images
+org.gnome.font-viewer                                 # View fonts on your system
+io.gitlab.theevilskeleton.Upscaler                    # Upscale and enhance images
+org.upscayl.upscayl                                   # Free and Open Source AI Image Upscaler
+
+# --------------------------------------------------- // Education
+net.ankiweb.Anki                                      # Powerful, intelligent flash cards
+
+
 # Repos:
 ######### Themes
 # [materia-theme](https://github.com/nana-4/materia-theme)
 
 # References:
 #########
-#
+# [Flathub](https://flathub.org/)

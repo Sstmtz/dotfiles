@@ -2,7 +2,7 @@
 kitty
 alacritty
 
-# --------------------------------------------------- // Terminal multiplexer
+# --------------------------------------------------- // Terminal multiplexer / workspaces
 tmux
 zellij
 
@@ -12,3 +12,21 @@ neovim                                                # a text editor
 # emacs
 yazi                                                  # a file manager (TUI)
 # ranger                                              # a file manager (TUI)
+
+# Repos:
+######### Terminal emulator
+# [kitty](https://github.com/kovidgoyal/kitty)
+# [alacritty](https://github.com/alacritty/alacritty)
+######### Terminal multiplexer
+# [tmux](https://github.com/tmux/tmux)
+# [zellij](https://github.com/zellij-org/zellij)
+######### Terminal tools
+# [vim](https://github.com/vim/vim)
+# [neovim](https://github.com/neovim/neovim)
+# [emacs](https://github.com/emacs-mirror/emacs)
+# [yazi](https://github.com/sxyazi/yazi)
+# [ranger](https://github.com/ranger/ranger)
+
+# References:
+#########
+#
