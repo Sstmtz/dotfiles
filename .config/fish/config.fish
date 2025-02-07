@@ -46,6 +46,14 @@ alias pa='$aurhelper -Ss' # list available package
 alias pc='$aurhelper -Sc' # remove unused cache
 alias po='$aurhelper -Qtdq | $aurhelper -Rns -' # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
 
+# Git
+alias ga='git add'
+alias gc='git commit -m'
+alias gs='git status'
+alias gd='git diff'
+alias gl='git log'
+alias gp='git push'
+
 # █▀ █▀▀ ▀█▀
 # ▄█ ██▄ ░█░
 # set
