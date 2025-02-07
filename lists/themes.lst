@@ -1,0 +1,42 @@
+# --------------------------------------------------- // Dependencies
+kde-gtk-config                                        # KDE integration for Gnome/GTK Applications Style
+gtk3-classic                                          # Patches to bring back a traditional experience for GTK+3
+gnome-settings-daemon
+gsettings-desktop-schemas
+gsettings-qt
+
+# --------------------------------------------------- // Gnome/GTK
+breeze-gtk                                            # KDE breeze Theme for GTK2/3
+materia-gtk-theme                                     # Materia Theme for GTK2/3/4
+
+# --------------------------------------------------- // KDE/QT
+# materia-kde                                           # (!unmaintained) Materia Theme for QT5
+# kvantum-theme-materia                                 # (!unmaintained) Materia Theme for Kvantum-qt5
+darkly-bin                                            # (fork) Darkly Application Style for QT5/6
+
+# --------------------------------------------------- // Theme Tools
+kvantum-qt5                                           # a SVG-based theme engine for QT5 and KDE
+kvantum                                               # a SVG-based theme engine for QT6 and KDE
+# qt5ct                                                 # a configtool for QT5 (theme,font,icons,etc) under DE/WM without QT integration
+# qt6ct                                                 # (!archived) a configtool for QT6 (theme,font,icons,etc) under DE/WM without QT integration
+qt5ct-kde                                             # (fork) a configtool for QT5 (theme,font,icons,etc) under DE/WM without QT integration
+qt6ct-kde                                             # (fork) a configtool for QT6 (theme,font,icons,etc) under DE/WM without QT integration
+themix-full-git                                       # a theme designer for GTK2/3, generating different color variations of Oomox
+
+# Repos:
+######### GNOME/GTK
+# [materia-theme](https://github.com/nana-4/materia-theme)
+######### KDE/QT 
+# [Darkly](https://github.com/Bali10050/Darkly)
+######### Theme Tools
+# [Kvantum](https://github.com/tsujan/Kvantum)
+# [qt5ct](https://sourceforge.net/projects/qt5ct/)
+# [qt6ct](https://github.com/ilya-fedin/qt6ct)
+# [themix-gui](https://github.com/themix-project/themix-gui)
+######### Dependencies
+# [gtk3-classic](https://github.com/lah7/gtk3-classic)
+
+# References:
+#########
+# [ArchWiki: Uniform look for Qt and GTK applications](https://wiki.archlinux.org/title/Uniform_look_for_Qt_and_GTK_applications)
+# [ArchWiki: Client-side decorations](https://wiki.archlinux.org/title/GTK#Client-side_decorations)

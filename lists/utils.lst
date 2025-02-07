@@ -1,4 +1,4 @@
-# --------------------------------------------------- // Enhanced
+# --------------------------------------------------- // Enhanced commands
 eza                                                   # better ls
 zoxide                                                # better cd
 bat                                                   # better cat
@@ -16,3 +16,25 @@ transmission-cli                                      # a fast, easy, and free B
 # --------------------------------------------------- // Utilities for nvim
 lazygit                                               # a simple terminal UI for git commands
 lazydocker                                            # a simple terminal UI for docker commands
+
+# Repos:
+######### Enhanced commands
+# [eza](https://github.com/eza-community/eza)
+# [zoxide](https://github.com/ajeetdsouza/zoxide)
+# [bat](https://github.com/sharkdp/bat)
+# [ripgrep](https://github.com/BurntSushi/ripgrep)
+# [fd](https://github.com/sharkdp/fd)
+######### Utilities for yazi
+# [glow](https://github.com/charmbracelet/glow)
+# [miller](https://github.com/johnkerl/miller)
+# [ouch](https://github.com/ouch-org/ouch)
+# [mediainfo](https://github.com/MediaArea/MediaInfo)
+# [exiftool](https://github.com/exiftool/exiftool)
+# [transmission](https://github.com/transmission/transmission)
+######### Utilities for nvim
+# [lazygit](https://github.com/jesseduffield/lazygit)
+# [lazydocker](https://github.com/jesseduffield/lazydocker)
+
+# References:
+#########
+#
