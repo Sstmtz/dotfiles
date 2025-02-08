@@ -24,7 +24,6 @@ com.usebottles.bottles                                # Run Windows Software
 
 # --------------------------------------------------- // Productivity
 org.libreoffice.LibreOffice                           # The LibreOffice productivity suite
-com.github.jeromerobert.pdfarranger                   # Merge, shuffle, and crop PDFs
 
 # --------------------------------------------------- // Utilities
 org.kde.kleopatra                                     # Certificate manager and cryptography app
@@ -34,10 +33,10 @@ com.github.tenderowl.frog                             # Extract text from images
 org.gnome.font-viewer                                 # View fonts on your system
 io.gitlab.theevilskeleton.Upscaler                    # Upscale and enhance images
 org.upscayl.upscayl                                   # Free and Open Source AI Image Upscaler
+com.github.jeromerobert.pdfarranger                   # Merge, shuffle, and crop PDFs
 
 # --------------------------------------------------- // Education
 net.ankiweb.Anki                                      # Powerful, intelligent flash cards
-
 
 # Repos:
 ######### Themes

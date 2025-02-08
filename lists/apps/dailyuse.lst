@@ -1,0 +1,17 @@
+# --------------------------------------------------- // Web Browser
+firefox                                               # Mozilla Web Browser
+zen-browser-bin                                       # (!Beta) Performance oriented Firefox-based web browser
+chromium                                              # Google Open-Source Chrome
+# vivaldi                                               # An advanced browser made with the power user in mind (Besed on chromium)
+
+# --------------------------------------------------- // Online Chat
+linuxqq                                               # (Chinese) Tencent QQ
+wechat-bin                                            # (Chinese) Tencent Wechat
+discord                                               # Internet Messaenger
+telegram-desktop                                      # New era of messaging 
+
+# --------------------------------------------------- // Online Music Client
+spotify                                               # Spotify GUI client
+
+# --------------------------------------------------- // Online Video Client
+bilibili-bin                                          # (Chinese) Bilibili GUI client for linux (Based on Electron)

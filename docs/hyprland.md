@@ -1,1 +1,3 @@
+# Hyprland Settings
+
 TODO

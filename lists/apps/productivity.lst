@@ -1,0 +1,21 @@
+# --------------------------------------------------- // IDE
+qtcreator                                             # C++ IDE for developing QT applications
+
+# --------------------------------------------------- // Text Editor
+code                                                  # Vscode Open Source
+
+# --------------------------------------------------- // 3D modeling
+blender                                               # Open-Source 3D Modeling Software
+
+# --------------------------------------------------- // Drawing
+gimp                                                  # GNU Image Manipulation Program
+krita                                                 # KDE Digital Drawing tool 
+
+# --------------------------------------------------- // Noting
+obsidian                                              # Markdown Noting Editor
+
+# --------------------------------------------------- // Record & Streaming
+obs-studio                                            # Open-Source Record and Streaming Software
+
+# --------------------------------------------------- // Video Editing
+kdenlive                                              # KDE Open-Source Video Editor

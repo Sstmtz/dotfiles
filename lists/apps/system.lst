@@ -1,0 +1,15 @@
+# --------------------------------------------------- // System Info
+hardinfo2                                             # System info
+cpu-x                                                 # CPU info
+psensor                                               # CPU tempature monitor
+waycheck                                              # Displaying the protocols implemented by a Wayland compositor
+vulkan-caps-viewer-wayland                            # Vulkan hardware capability viewer
+
+# --------------------------------------------------- // Utilities
+grub-customizer                                       # Customize the bootloader (GRUB2 or BURG)
+btrfs-assistant                                       # An application for managing BTRFS subvolumes and Snapper snapshots
+coppwr-bin                                            # a virtual, low pipewire control
+czkawka-gui                                           # a tool for cleaning duplicates, empty folders, similar images etc.
+hotspot                                               # the Linux perf GUI for performance analysis
+heaptrack                                             # a heap memory profiler for Linux
+gestures                                              # modern, minimal GUI app for libinput-gestures
