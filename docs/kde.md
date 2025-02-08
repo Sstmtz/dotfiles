@@ -1,5 +1,7 @@
 # KDE Settings
 
+**NOTICE: The following content is my customized KDE settings for reference only. Most of the required packages can be installed through the package manager, while only a small portion can be installed and updated manually. I have tried to use newer and well-maintained themes or font packages, so the content may change.**
+
 ## Colors & Themes
 
 - Global Theme: `Breeze-dark`.
