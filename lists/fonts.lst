@@ -1,0 +1,21 @@
+# --------------------------------------------------- // OTF
+otf-apple-pingfang-relaxed                            # (Chinese) PingFang (苹方) 支持简/繁/港
+
+# --------------------------------------------------- // TTF
+ttf-roboto                                            # RoBoto
+ttf-dejavu                                            # DejaVu
+ttf-jetbrains-mono-nerd                               # JetBrains Mono (Nerd Font)
+noto-fonts                                            # Google Noto
+noto-fonts-emoji                                      # Google Noto emoji
+noto-fonts-cjk                                        # (Chinese/Japanese/Korean) Google Noto
+adobe-source-hans-sans-cn-fonts                       # (Chinese) Adobe Source Han Sans
+adobe-source-hans-serif-cn-fonts                      # (Chinese) Adobe Source Han Serif  
+
+# Repos:
+#########
+#
+
+# References:
+#########
+# [ArchWiki: 字体配置](https://wiki.archlinuxcn.org/wiki/字体配置)
+# [ArchWiki: 字体配置/中文](https://wiki.archlinuxcn.org/wiki/字体配置/中文)
