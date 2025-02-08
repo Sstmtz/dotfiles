@@ -8,11 +8,8 @@ code                                                  # Vscode Open Source
 blender                                               # Open-Source 3D Modeling Software
 
 # --------------------------------------------------- // Drawing
-gimp                                                  # GNU Image Manipulation Program
+# gimp                                                  # (!RC) GNU Image Manipulation Program
 krita                                                 # KDE Digital Drawing tool 
-
-# --------------------------------------------------- // Noting
-obsidian                                              # Markdown Noting Editor
 
 # --------------------------------------------------- // Record & Streaming
 obs-studio                                            # Open-Source Record and Streaming Software

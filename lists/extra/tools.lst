@@ -1,0 +1,12 @@
+# --------------------------------------------------- // Network
+wireshark-qt                                          # a network traffic analyzer
+
+# --------------------------------------------------- // Misc
+# emote                                                 # Emoji Picker
+cava                                                  # audio visualizer
+downgrade                                             # a cli to downgrade packages
+trash-cli-git                                         # a cli to manage trash files
+
+# --------------------------------------------------- // Customozation
+spicetify-cli                                         # a cli to customize spotify client
+betterdiscordctl-git                                  # a cli to customize discord client

@@ -7,7 +7,7 @@ chromium                                              # Google Open-Source Chrom
 # --------------------------------------------------- // Online Chat
 linuxqq                                               # (Chinese) Tencent QQ
 wechat-bin                                            # (Chinese) Tencent Wechat
-discord                                               # Internet Messaenger
+discord                                               # All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.
 telegram-desktop                                      # New era of messaging 
 
 # --------------------------------------------------- // Online Music Client
@@ -15,3 +15,6 @@ spotify                                               # Spotify GUI client
 
 # --------------------------------------------------- // Online Video Client
 bilibili-bin                                          # (Chinese) Bilibili GUI client for linux (Based on Electron)
+
+# --------------------------------------------------- // Noting
+obsidian                                              # Markdown Noting Editor

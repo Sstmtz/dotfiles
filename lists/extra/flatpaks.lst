@@ -1,5 +1,7 @@
 # --------------------------------------------------- // Themes
-org.gtk.Gtk3theme.Materia{,-dark,-light}{,-compact}   # Materia Theme for GTK
+org.gtk.Gtk3theme.Materia-dark                        # Materia Dark Theme for GTK
+org.gtk.Gtk3theme.Materia-light                       # Materia Light Theme for GTK
+org.gtk.Gtk3theme.Materia-compact                     # Materia Compact Theme for GTK
 
 # --------------------------------------------------- // System
 io.github.flattool.Warehouse                          # Manage all things Flatpak
@@ -32,7 +34,7 @@ org.qbittorrent.qBittorrent                           # An open-source Bittorren
 com.github.tenderowl.frog                             # Extract text from images
 org.gnome.font-viewer                                 # View fonts on your system
 io.gitlab.theevilskeleton.Upscaler                    # Upscale and enhance images
-org.upscayl.upscayl                                   # Free and Open Source AI Image Upscaler
+org.upscayl.Upscayl                                   # Free and Open Source AI Image Upscaler
 com.github.jeromerobert.pdfarranger                   # Merge, shuffle, and crop PDFs
 
 # --------------------------------------------------- // Education
