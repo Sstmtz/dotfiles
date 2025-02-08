@@ -1,0 +1,46 @@
+# Common Settings
+
+---
+
+## Terminal
+
+### Kitty
+
+- Configuration directory: `~/.config/kitty/`.
+
+- Font Family: `CaskaydiaCove Nerd Font` from `~/.local/share/fonts/CascadiaCove/`
+
+### Alacritty
+
+- Configuration directory: `~/.config/alacritty/`
+
+- Font Family: `CaskaydiaCove Nerd Font` from `~/.local/share/fonts/CascadiaCove/`
+
+---
+
+## Input Method
+
+### Fcitx5
+
+- Configuration directory: `~/.config/fcitx5/`.
+
+- Font: `Roboto Italic Black 10`.
+- MenuFont: `San 10`.
+- TrayFont: `开苹方-简 Extra-Light 10`
+
+- Theme: `Mellow Wechat blur`.
+- Dark Theme: `Mellow Wechat blur dark`.
+
+---
+
+## Video Player
+
+### MPV
+
+- Configuration directory: `~/.config/mpv/`.
+
+The following parts require manual installation or updates:
+
+- OSC: From [ModernZ](https://github.com/Samillion/ModernZ)
+
+---
