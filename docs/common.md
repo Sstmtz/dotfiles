@@ -1,18 +1,20 @@
 # Common Settings
 
----
-
 ## Terminal
 
 ### Kitty
 
 - Configuration directory: `~/.config/kitty/`.
 
+The following parts require manual installation or updates:
+
 - Font Family: `CaskaydiaCove Nerd Font` from `~/.local/share/fonts/CascadiaCove/`
 
 ### Alacritty
 
 - Configuration directory: `~/.config/alacritty/`
+
+The following parts require manual installation or updates:
 
 - Font Family: `CaskaydiaCove Nerd Font` from `~/.local/share/fonts/CascadiaCove/`
 
