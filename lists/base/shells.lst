@@ -1,0 +1,16 @@
+# --------------------------------------------------- // Shells
+zsh
+fish
+
+# --------------------------------------------------- // Plugins
+oh-my-zsh-git                                         # zsh plugin manager
+zsh-completions                                       # completions for zsh
+
+# --------------------------------------------------- // Themes
+zsh-theme-powerlevel10k-git                           # zsh powerlevel10k theme
+
+# --------------------------------------------------- // Common
+starship                                              # The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+
+# --------------------------------------------------- // Scripts
+pokemon-colorscripts-git                              # prints out colored unicode sprites of pokemon onto your terminal

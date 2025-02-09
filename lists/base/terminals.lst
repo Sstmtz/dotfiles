@@ -6,12 +6,16 @@ alacritty
 tmux
 zellij
 
-# --------------------------------------------------- // Terminal tools
+# --------------------------------------------------- // Main CLI tools
 vim                                                   # a text editor
 neovim                                                # a text editor
 # emacs
 yazi                                                  # a file manager (TUI)
 # ranger                                              # a file manager (TUI)
+
+# --------------------------------------------------- // Useful CLI tools
+fastfetch                                             # show system information
+cava                                                  # audio visualizer
 
 # Repos:
 ######### Terminal emulator
