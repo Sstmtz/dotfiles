@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 scrDir=$(dirname "$(realpath "$0")")
 if ! source "${scrDir}/global_fn.sh"; then
 	echo "Error: unable to source global_fn.sh..."
@@ -10,40 +12,42 @@ chk_list "aurhlpr" "${aurList[@]}"
 listPkg="${1:-"${scrDir}/packages.lst"}"
 archPkg=()
 aurhPkg=()
-locale=$(locale | grep LANG | cut -d= -f2)
 
+print_log -stat "NOTE" " - Fetching the list of packages to be installed ..."
 while IFS= read -r line; do
 	if [[ ! $line =~ ^# ]]; then
 		pkg=$(echo "$line" | awk '{print $1}' | xargs)
 		if [[ -n $pkg ]]; then
 			if pkg_installed "${pkg}"; then
-				print_log -y "[SKIP] " "${pkg} has installed."
+				print_log -y "[SKIP] " -g "${pkg} " "is already installed. Skipping..."
 			elif pkg_available "${pkg}"; then
-				if [[ "$locale" == "en_US.UTF-8" ]]; then
-					repo=$(pacman -Si "${pkg}" | awk -F ': ' '/Repository / {print $2}' | head -n 1)
-				elif [[ "$locale" == "zh_CN.UTF-8" ]]; then
-					repo=$(pacman -Si "${pkg}" | awk -F ': ' '/软件库 / {print $2}' | head -n 1)
-				else
-					echo "Unsupported locale: $locale"
-				fi
 				archPkg+=("${pkg}")
-				print_log -b "[QUEUE] " -g "${repo}" -b "::" "${pkg}"
+				print_log -b "[QUEUE] " -m "${pkg} " "is not installed. Queuing..."
 			elif aur_available "${pkg}"; then
 				aurhPkg+=("${pkg}")
-				print_log -b "[QUEUE] " -g "aur" -b "::" "${pkg}"
+				print_log -b "[QUEUE] " -m "${pkg} " "is not installed. Queuing..."
 			else
-				print_log -r "[ERROR] " "Unknown package ${pkg}..."
+				print_log -r "[ERROR] " -err "Unknown package ${pkg}"
 			fi
 		fi
 	fi
 done <"${listPkg}"
 
+printf "\n"
+
+# Install packages
 if [[ ${#archPkg[@]} -gt 0 ]]; then
-	print_log -b "[Install] " "arch packages..."
-	sudo pacman -S "${archPkg[@]}"
+	print_log -stat "NOTE" " - Installing the required " -b "Arch packages " "..."
+	for pkg in "${archPkg[@]}"; do
+		install_pkg "${pkg}" "$LOG"
+	done
 fi
 
 if [[ ${#aurhPkg[@]} -gt 0 ]]; then
-	print_log -b "[Install] " "aur packages..."
-	"${aurhlpr}" -S "${aurhPkg[@]}"
+	print_log -stat "NOTE" " - Installing the required " -b "AUR packages " "..."
+	for pkg in "${aurhPkg[@]}"; do
+		install_aur "${pkg}" "$LOG"
+	done
 fi
+
+printf "\n%.0s" {1..2}

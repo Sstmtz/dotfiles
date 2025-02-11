@@ -1,7 +1,33 @@
 #!/usr/bin/env bash
 
+# shellcheck disable=SC2034
+
+# Aur Helper
 aurList=("yay" "paru")
 
+# Colored text
+RED="$(tput setaf 1)"
+GREEN="$(tput setaf 2)"
+YELLOW="$(tput setaf 3)"
+BLUE="$(tput setaf 4)"
+MAGENTA="$(tput setaf 5)"
+SKY_BLUE="$(tput setaf 6)"
+ORANGE="$(tput setaf 214)"
+RESET="$(tput sgr0)"
+OK="$(tput setaf 2)[OK]$(tput sgr0)"
+ERROR="$(tput setaf 1)[ERROR]$(tput sgr0)"
+NOTE="$(tput setaf 3)[NOTE]$(tput sgr0)"
+INFO="$(tput setaf 4)[INFO]$(tput sgr0)"
+WARN="$(tput setaf 214)[WARN]$(tput sgr0)"
+ACTION="$(tput setaf 6)[ACTION]$(tput sgr0)"
+
+# Create Directory for Install Logs
+if [ ! -d Logs ]; then
+	mkdir Logs
+fi
+LOG="Logs/install-$(date +%d-%H%M%S)_base.log"
+
+# Check if package is installed
 pkg_installed() {
 	local PkgIn=$1
 
@@ -12,6 +38,7 @@ pkg_installed() {
 	fi
 }
 
+# Check if package is available
 pkg_available() {
 	local PkgIn=$1
 
@@ -22,6 +49,7 @@ pkg_available() {
 	fi
 }
 
+# check if aur package is available
 aur_available() {
 	local PkgIn=$1
 
@@ -33,6 +61,7 @@ aur_available() {
 	fi
 }
 
+# Check if at least one of the software packages in the list is installed.
 chk_list() {
 	vrType="$1"
 	local inList=("${@:2}")
@@ -48,6 +77,7 @@ chk_list() {
 	return 1
 }
 
+# Colored log output
 print_log() {
 	while (("$#")); do
 		case "$1" in
@@ -84,25 +114,25 @@ print_log() {
 			shift 2
 			;; # Neon
 		-stat)
-			echo -ne "\e[30;46m $2 \e[0m :: "
+			echo -ne "\e[30;46m $2 \e[0m"
 			shift 2
 			;; # status
 		-crit)
-			echo -ne "\e[97;41m $2 \e[0m :: "
+			echo -ne "\e[97;41m $2 \e[0m"
 			shift 2
 			;; # critical
 		-warn)
-			echo -ne "WARNING :: \e[97;43m $2 \e[0m :: "
+			echo -ne "\e[97;43m $2 \e[0m"
 			shift 2
 			;; # warning
+		-err)
+			echo -ne "\e[4;31m$2\e[0m"
+			shift 2
+			;; #error
 		+)
 			echo -ne "\e[38;5;$2m$3\e[0m"
 			shift 3
 			;; # Set color manually
-		-err)
-			echo -ne "ERROR :: \e[4;31m$2 \e[0m"
-			shift 2
-			;; #error
 		*)
 			echo -ne "$1"
 			shift
@@ -110,4 +140,59 @@ print_log() {
 		esac
 	done
 	echo ""
+}
+
+# Display installation progress animation
+show_progress() {
+	local pid=$1
+	local package_name=$2
+	local spin_chars=("●○○○○○○○○○" "○●○○○○○○○○" "○○●○○○○○○○" "○○○●○○○○○○" "○○○○●○○○○"
+		"○○○○○●○○○○" "○○○○○○●○○○" "○○○○○○○●○○" "○○○○○○○○●○" "○○○○○○○○○●")
+	local i=0
+
+	tput civis # hide cursor
+	printf "\r${INFO} Installing ${YELLOW}%s${RESET} ..." "$package_name"
+
+	# draw loop animations
+	while ps -p $pid &>/dev/null; do
+		printf "\r${INFO} Installing ${YELLOW}%s${RESET} %s" "$package_name" "${spin_chars[i]}"
+		i=$(((i + 1) % 10))
+		sleep 0.3
+	done
+
+	printf "\r${INFO} Installing ${YELLOW}%s${RESET} ... Done!%-20s \n" "$package_name" ""
+	tput cnorm # show cursor
+}
+
+# Install arch package
+install_pkg() {
+	(
+		stdbuf -oL sudo pacman -S --noconfirm "$1" 2>&1
+	) >>"$LOG" 2>&1 &
+
+	PID=$!
+	show_progress $PID "$1"
+
+	if pkg_installed "$1"; then
+		print_log -g "[OK] " "Package " -y "${1} " "has been successfully installed!"
+	else
+		print_log -r "[ERROR] " -y "${1} " "failed to install. Please check the $LOG. You may need to install manually."
+	fi
+
+}
+
+# Install aur package
+install_aur() {
+	(
+		stdbuf -oL "${aurhlpr}" -S --noconfirm "$1" 2>&1
+	) >>"$LOG" 2>&1 &
+	PID=$!
+	show_progress $PID "$1"
+
+	if pkg_installed "$1"; then
+		print_log -g "[OK] " "Package " -y "${1} " "has been successfully installed!"
+	else
+		print_log -r "[ERROR] " -y "${1} " "failed to install. Please check the $LOG. You may need to install manually."
+	fi
+
 }

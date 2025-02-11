@@ -14,7 +14,11 @@ telegram-desktop                                      # New era of messaging
 spotify                                               # Spotify GUI client
 
 # --------------------------------------------------- // Online Video Client
-bilibili-bin                                          # (Chinese) Bilibili GUI client for linux (Based on Electron)
+# bilibili-bin                                          # (!high cpu) (Chinese) Bilibili GUI client for linux (Based on Electron)
+# bilibili-appimage                                     # (!high cpu) (Chinese) Bilibili GUI client for linux (Based on Electron) 
 
 # --------------------------------------------------- // Noting
 obsidian                                              # Markdown Noting Editor
+
+# --------------------------------------------------- // Office
+# onlyoffice-bin                                      # (!unstable) An office suite that combines text, spreadsheet and presentation editors

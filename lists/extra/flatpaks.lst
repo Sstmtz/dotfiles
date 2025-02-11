@@ -11,6 +11,7 @@ io.missioncenter.MissionCenter                        # Monitor system resource 
 net.nokyan.Resources                                  # Keep an eye on system resources
 io.github.plrigaux.sysd-manager                       # A GUI to manage systemd units
 org.bleachbit.BleachBit                               # Cleans files to free disk space and to maintain privacy
+io.github.jonmagon.kdiskmark                          # Disk benchmark tool
 
 # --------------------------------------------------- // Video & Audio
 io.github.Predidit.Kazumi                             # Watch Animes online with danmaku support

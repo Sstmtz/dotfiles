@@ -3,7 +3,9 @@ wireshark-qt                                          # a network traffic analyz
 
 # --------------------------------------------------- // Misc
 # emote                                                 # Emoji Picker
-cava                                                  # audio visualizer
+nvtop                                                 # a cli to monitor nvidia gpu
+intel-gpu-tools                                       # a cli to monitor intel gpu
+switcheroo-control                                    # D-Bus service to check the availability of dual-GPU
 downgrade                                             # a cli to downgrade packages
 trash-cli-git                                         # a cli to manage trash files
 
