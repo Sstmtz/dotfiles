@@ -21,5 +21,6 @@ elif [[ "$locale" == "zh_CN.UTF-8" ]]; then
 	flatpak remote-add --if-not-exists flathub https://mirror.sjtu.edu.cn/flathub/flathub.flatpakrepo
 fi
 
+# Install apps from remote flathub
 flatpak install flathub ${listFpk}
 flatpak remove --unused
