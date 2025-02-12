@@ -15,7 +15,7 @@ io.github.jonmagon.kdiskmark                          # Disk benchmark tool
 
 # --------------------------------------------------- // Video & Audio
 io.github.Predidit.Kazumi                             # Watch Animes online with danmaku support
-io.github.waylyrics.Waylyrics                         # Show desktop lyrics in a furry way
+# io.github.waylyrics.Waylyrics                         # Show desktop lyrics in a furry way
 io.github.hypengw.Qcm                                 # Material3 cloud music player
 com.dec05eba.gpu_screen_recorder                      # A shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux
 

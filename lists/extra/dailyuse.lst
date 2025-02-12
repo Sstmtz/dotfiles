@@ -19,7 +19,7 @@ telegram-desktop                                      # New era of messaging
 # --------------------------------------------------- // Online Music Client
 spotify                                               # Spotify GUI client
 splayer-appimage                                      # (!Beta) (Chinese) A Third Netease Music player (Electron)
-# splayer--bin                                        # A Third Netease Music player (Non-Electron)
+# splayer--bin                                        # (Chinese) A Third Netease Music player (Non-Electron)
 
 # --------------------------------------------------- // Online Video Client
 # bilibili-bin                                          # (!high cpu) (Chinese) Bilibili GUI client for linux (Based on Electron)

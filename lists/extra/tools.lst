@@ -1,6 +1,9 @@
 # --------------------------------------------------- // Network
 wireshark-qt                                          # a network traffic analyzer
 
+# --------------------------------------------------- // Audio
+waylyrics                                             # Show desktop lyrics in a furry way
+
 # --------------------------------------------------- // Misc
 # emote                                                 # Emoji Picker
 nvtop                                                 # a cli to monitor nvidia gpu

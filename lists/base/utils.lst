@@ -15,11 +15,14 @@ ouch                                                  # a command line utility f
 mediainfo                                             # supplies technical and tag information about media files (CLI interface)
 perl-image-exiftool                                   # a reader and rewriter of EXIF information that supports raw files
 transmission-cli                                      # a fast, easy, and free BitTorrent client (CLI tools, daemon and web client)
+ueberzugpp                                            # allows to draw images on terminals by using X11/wayland child windows, sixels, kitty and iterm2..
 
 # --------------------------------------------------- // Utilities for nvim
 lazygit                                               # a simple terminal UI for git commands
 lazydocker                                            # a simple terminal UI for docker commands
 
+# --------------------------------------------------- // Common Tools
+swappy                                                # A Wayland native snapshot editing tool
 
 # Repos:
 ######### Enhanced commands
