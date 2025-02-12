@@ -1,11 +1,5 @@
 return {
-    {
-        "nvzone/typr",
-        cmd = "TyprStats",
-        dependencies = "nvzone/volt",
-        opts = {},
-    },
-
+    -- integrated with lazygit
     {
         "kdheepak/lazygit.nvim",
         lazy = true,
@@ -26,7 +20,7 @@ return {
             { "<leader>lg", "<cmd>LazyGit<cr>", desc = "Open LazyGit floating window" },
         },
     },
-
+    -- integrated with lazydocker
     {
         "mgierada/lazydocker.nvim",
         dependencies = { "akinsho/toggleterm.nvim" },
@@ -46,7 +40,7 @@ return {
             },
         },
     },
-
+    -- integrated with yazi
     {
         "mikavilpas/yazi.nvim",
         event = "VeryLazy",

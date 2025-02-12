@@ -1,7 +1,11 @@
 key.txt.age
 
-fcitx5/
-go-musicfox/
+dot_config/alactritty/
+dot_config/zellij/
+dot_config/mpv/
+
+dot_config/fcitx5/
+dot_config/go-musicfox/
 
 executable_kglobalshortcutsrc
 executable_dolphinrc
