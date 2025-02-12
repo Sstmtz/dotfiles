@@ -69,3 +69,11 @@ alias vc='code'                                 # gui code editor
 export EDITOR='nvim'                                   # set default editor
 export PATH=$PATH:$HOME/.local/share/bin               # add local bin to PATH
 export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/docker.sock # local docker socket
+
+# nvm
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # This loads nvm, without auto-using the default version
+
+# █▀ █▀█ █░█ █▀█ █▀▀ █▀▀
+# ▄█ █▄█ █▄█ █▀▄ █▄▄ ██▄
+# source
