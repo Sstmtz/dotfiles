@@ -9,7 +9,7 @@ zsh-completions                                       # completions for zsh
 # --------------------------------------------------- // Themes
 zsh-theme-powerlevel10k-git                           # zsh powerlevel10k theme
 
-# --------------------------------------------------- // Common
+# --------------------------------------------------- // Customizable Prompt (Common)
 starship                                              # The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 # --------------------------------------------------- // Scripts

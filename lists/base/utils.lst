@@ -1,3 +1,6 @@
+# --------------------------------------------------- // Dependencies
+fzf                                                   # fuzzy finder
+
 # --------------------------------------------------- // Enhanced commands
 eza                                                   # better ls
 zoxide                                                # better cd
@@ -16,6 +19,7 @@ transmission-cli                                      # a fast, easy, and free B
 # --------------------------------------------------- // Utilities for nvim
 lazygit                                               # a simple terminal UI for git commands
 lazydocker                                            # a simple terminal UI for docker commands
+
 
 # Repos:
 ######### Enhanced commands

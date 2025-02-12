@@ -13,3 +13,4 @@ czkawka-gui                                           # a tool for cleaning dupl
 hotspot                                               # the Linux perf GUI for performance analysis
 heaptrack                                             # a heap memory profiler for Linux
 gestures                                              # modern, minimal GUI app for libinput-gestures
+switcheroo-control                                    # D-Bus service to check the availability of dual-GPU

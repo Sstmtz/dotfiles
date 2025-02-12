@@ -1,3 +1,9 @@
+# --------------------------------------------------- // File Manager
+dolphin                                               # KDE file manager
+
+# --------------------------------------------------- // Archive Tools
+ark                                                   # KDE archive manager
+
 # --------------------------------------------------- // Web Browser
 firefox                                               # Mozilla Web Browser
 zen-browser-bin                                       # (!Beta) Performance oriented Firefox-based web browser
@@ -22,3 +28,18 @@ obsidian                                              # Markdown Noting Editor
 
 # --------------------------------------------------- // Office
 # onlyoffice-bin                                      # (!unstable) An office suite that combines text, spreadsheet and presentation editors
+
+# --------------------------------------------------- // Optional Dependencies
+# lrzip                                                 # LRZ format support for ark
+# lzop                                                  # LZO format support for ark
+7zip                                                  # 7Z format support for ark
+# unarchiver                                            # RAR format support for ark
+unrar                                                 # RAR decompression support for ark
+
+ffmpegthumbs                                          # video thumbnails / preview support for dolphin
+kde-cli-tools                                         # editing file type options support for dolphin
+# kdegraphics-thumbnailers                              # PDF and PS thumbnails / preview support for dolphin
+kdenetwork-filesharing                                # samba usershare properties menu support for dolphin
+kio-admin                                             # managing files as administrator support for dolphin
+# konsole                                               # terminal panel support for dolphin
+purpose                                               # share context menu support for dolphin

@@ -1,15 +1,15 @@
 # --------------------------------------------------- // Terminal emulator
-kitty
-alacritty
+kitty                                                 # ( default )
+# alacritty                                           # ( optional )
 
 # --------------------------------------------------- // Terminal multiplexer / workspaces
-tmux
-zellij
+tmux                                                  # ( default )
+# zellij                                              # ( optional )
 
 # --------------------------------------------------- // Main CLI tools
 vim                                                   # a text editor
 neovim                                                # a text editor
-# emacs
+# emacs                                               # the extensible, customizable, self-documenting real-time display editor
 yazi                                                  # a file manager (TUI)
 # ranger                                              # a file manager (TUI)
 

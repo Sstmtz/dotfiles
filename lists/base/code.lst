@@ -1,0 +1,5 @@
+# --------------------------------------------------- // package / environment management
+python-conda                                          # OS-agnostic, system-level binary package manager and ecosystem
+
+# --------------------------------------------------- // offline Manual
+man-db                                                # A utility for reading man pages
