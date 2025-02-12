@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # shellcheck disable=SC2034
+src_dir=$HOME/.local/share/chezmoi
 
 # Aur Helper
 aurList=("yay" "paru")
@@ -22,10 +23,10 @@ WARN="$(tput setaf 214)[WARN]$(tput sgr0)"
 ACTION="$(tput setaf 6)[ACTION]$(tput sgr0)"
 
 # Create Directory for Install Logs
-if [ ! -d Logs ]; then
-	mkdir Logs
+if [ ! -d "$src_dir/Logs" ]; then
+	mkdir "$src_dir/Logs"
 fi
-LOG="Logs/install-$(date +%d-%H%M%S)_base.log"
+LOG="$src_dir/Logs/install-$(date +%d-%H%M%S)_base.log"
 
 # Check if package is installed
 pkg_installed() {
