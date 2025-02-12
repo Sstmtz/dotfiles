@@ -1,5 +1,9 @@
 # --------------------------------------------------- // package / environment management
 python-conda                                          # OS-agnostic, system-level binary package manager and ecosystem
+npm                                                   # javascript package manager
+
+# --------------------------------------------------- // version control
+nvm                                                   # node version control, to manage multiple active node.js versions
 
 # --------------------------------------------------- // offline Manual
 man-db                                                # A utility for reading man pages

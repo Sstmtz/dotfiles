@@ -16,6 +16,8 @@ yazi                                                  # a file manager (TUI)
 # --------------------------------------------------- // Useful CLI tools
 fastfetch                                             # show system information
 cava                                                  # audio visualizer
+btop                                                  # a monitor
+htop                                                  # a monitor
 
 # Repos:
 ######### Terminal emulator

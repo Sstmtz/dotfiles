@@ -10,4 +10,5 @@ trash-cli-git                                         # a cli to manage trash fi
 
 # --------------------------------------------------- // Customozation
 spicetify-cli                                         # a cli to customize spotify client
+spicetify-marketplace-bin                             # spotify integrated marketplace
 betterdiscordctl-git                                  # a cli to customize discord client
