@@ -2,30 +2,45 @@
 # █▀▀ █▄▄ █▄█ █▄█ █ █░▀█ ▄█
 # plugins
 
-# Oh-my-zsh installation path
-ZSH=/usr/share/oh-my-zsh/
-
-# List of plugins used
-plugins=(
-  git
-  sudo
-  zsh-256color
-  zsh-autosuggestions
-  zsh-syntax-highlighting
-)
-
+####################################
+# # Oh-my-zsh installation path
+# ZSH=/usr/share/oh-my-zsh/
+#
+# # List of plugins used
+# plugins=(
+#   git
+#   sudo
+#   zsh-256color
+#   zsh-autosuggestions
+#   zsh-syntax-highlighting
+# )
+#
 # load oh-my-zsh
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
+####################################
+# load zinit
+source /usr/share/zinit/zinit.zsh
+
+zinit snippet OMZP::sudo
+zinit snippet OMZP::git
+
+zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-syntax-highlighting
+zinit light chrissicool/zsh-256color
+
+####################################
 
 # ▀█▀ █░█ █▀▀ █▀▄▀█ █▀▀
 # ░█░ █▀█ ██▄ █░▀░█ ██▄
 # theme
 
 # Powerlevel10k theme
-# # Powerlevel10k theme path
+# Powerlevel10k theme path
 # source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
-# # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# or use zinit
+# zinit light romkatv/powerlevel10k
 
 # Starship
 # https://starship.rs/presets/
@@ -38,7 +53,8 @@ eval "$(zoxide init zsh)" # enable zoxide
 # scripts
 
 # Display Pokemon (need install pokemon-colorscripts-git)
-pokemon-colorscripts --no-title -r 1,3,6
+# pokemon-colorscripts --no-title -r 1,3,6
+pokego --no-title -random 1,3,6
 
 # In case a command is not found, try to find the package that has it
 function command_not_found_handler {
@@ -68,10 +84,10 @@ elif pacman -Qi paru &>/dev/null; then
 fi
 
 # Add the context of .env to environment
-temp_file=$(mktemp)
-grep -v '\s*#' $HOME/.env > "$temp_file"
-eval export $(envsubst < "$temp_file")
-rm "$temp_file"
+# temp_file=$(mktemp)
+# grep -v '\s*#' $HOME/.env > "$temp_file"
+# eval export $(envsubst < "$temp_file")
+# rm "$temp_file"
 
 # ▄▀█ █░░ █ ▄▀█ █▀
 # █▀█ █▄▄ █ █▀█ ▄█
