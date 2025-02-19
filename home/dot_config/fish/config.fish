@@ -2,8 +2,9 @@
 # ▄█ █▄▄ █▀▄ █ █▀▀ ░█░ ▄█
 # scripts
 
-# Display Pokemon (need install pokemon-colorscripts-git)
-pokemon-colorscripts --no-title -r 1,3,6
+# Display Pokemon (need install pokemon-colorscripts-git or pokego-bin)
+# pokemon-colorscripts --no-title -r 1,3,6
+pokego --no-title -random 1,3,6
 
 # Detect AUR wrapper
 if pacman -Qi yay >/dev/null
@@ -70,6 +71,6 @@ set -U EDITOR nvim # set default text editor
 # source
 
 # [starship]
-starship init fish | source
+# starship init fish | source
 # [zoxide]
 zoxide init fish | source
