@@ -24,6 +24,7 @@ end
 # Common
 alias cls='clear' # clear terminal
 alias mkdir='mkdir -p' # create directory
+alias alinux='activate-linux -f "CaskaydiaCove Nerd Font" -f "开苹方-简" --daemonize'
 
 # List shortcuts
 alias l='eza -lh --icons=auto' # long list
