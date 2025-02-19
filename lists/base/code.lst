@@ -1,5 +1,5 @@
 # --------------------------------------------------- // package / environment management
-python-conda                                          # OS-agnostic, system-level binary package manager and ecosystem
+python-conda                                          # (!need manually install) OS-agnostic, system-level binary package manager and ecosystem
 npm                                                   # javascript package manager
 
 # --------------------------------------------------- // version control
@@ -7,3 +7,11 @@ nvm                                                   # node version control, to
 
 # --------------------------------------------------- // offline Manual
 man-db                                                # A utility for reading man pages
+man-pages
+
+# --------------------------------------------------- // library / toolkit
+# cuda                                                # (!big compile) NVIDIA's GPU programming toolkit
+jre21-openjdk                                         # OpenJDK Java 21 full runtime environment 
+
+# --------------------------------------------------- // utility
+github-cli

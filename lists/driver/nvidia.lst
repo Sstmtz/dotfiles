@@ -1,0 +1,9 @@
+# --------------------------------------------------- // NVIDIA Driver
+nvidia-open-dkms
+# nvidia-dkms
+egl-wayland
+opencl-nvidia
+nvidia-utils
+lib32-nvidia-utils
+lib32-opencl-nvidia
+nvidia-settings

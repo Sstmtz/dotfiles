@@ -1,5 +1,5 @@
 # --------------------------------------------------- // Game Platform
-steam
+steam                                                 # Valve's digital software delivery system
 # lutris                                              # an open source gaming platform for Linux
 
 # --------------------------------------------------- // Game Launcher
@@ -11,4 +11,3 @@ goverlay                                              # A GUI to help manage Vul
 
 # --------------------------------------------------- // Library / Tools
 # gamemode                                              # daemon and library for game optimizations
-

@@ -15,3 +15,7 @@ trash-cli-git                                         # a cli to manage trash fi
 spicetify-cli                                         # a cli to customize spotify client
 spicetify-marketplace-bin                             # spotify integrated marketplace
 betterdiscordctl-git                                  # a cli to customize discord client
+
+activate-linux-git                                    # The 'Activate Windows' watermark ported to Linux with Xlib and cairo in C                                
+cool-retro-term                                       # (!upstream unmaintained) A good looking terminal emulator which mimics the old cathode display
+kando-bin                                             # A pie menu for the desktop. It will be highly customizable and will allow you to create your own menus and actions.

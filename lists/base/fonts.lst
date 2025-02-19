@@ -8,8 +8,8 @@ ttf-jetbrains-mono-nerd                               # JetBrains Mono (Nerd Fon
 noto-fonts                                            # Google Noto
 noto-fonts-emoji                                      # Google Noto emoji
 noto-fonts-cjk                                        # (Chinese/Japanese/Korean) Google Noto
-adobe-source-hans-sans-cn-fonts                       # (Chinese) Adobe Source Han Sans
-adobe-source-hans-serif-cn-fonts                      # (Chinese) Adobe Source Han Serif  
+adobe-source-han-sans-cn-fonts                       # (Chinese) Adobe Source Han Sans
+adobe-source-han-serif-cn-fonts                      # (Chinese) Adobe Source Han Serif  
 
 # Repos:
 #########

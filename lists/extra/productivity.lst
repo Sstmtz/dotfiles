@@ -2,7 +2,8 @@
 qtcreator                                             # C++ IDE for developing QT applications
 
 # --------------------------------------------------- // Text Editor
-code                                                  # Vscode Open Source
+code                                                  # Offical Arch Linux Open-Source release
+# vscodium-bin                                          # Community open-source release, Nullifies telemetry in the source code
 
 # --------------------------------------------------- // 3D modeling
 blender                                               # Open-Source 3D Modeling Software

@@ -5,15 +5,21 @@ gnome-settings-daemon
 gsettings-desktop-schemas
 gsettings-qt
 
-# --------------------------------------------------- // Gnome/GTK
+# --------------------------------------------------- // Gnome/GTK Theme
 breeze-gtk                                            # KDE breeze Theme for GTK2/3
 materia-gtk-theme                                     # Materia Application Style for GTK2/3/4
 
-# --------------------------------------------------- // KDE/QT
+# --------------------------------------------------- // KDE/QT Theme
 # materia-kde                                           # (!unmaintained) Materia Theme for QT5
 # kvantum-theme-materia                                 # (!unmaintained) Materia Theme for Kvantum-qt5
 papirus-icon-theme-git                                # Papirus Icon Theme for QT5/6
 darkly-bin                                            # (fork) Darkly Application Style for QT5/6
+
+# --------------------------------------------------- // Grub Theme
+# grub-theme-minegrub-git                             # (!archived) A Grub Theme in the style of Minecraft!
+
+# --------------------------------------------------- // SDDM Theme
+sddm-astronaut-theme                                  # (1080p) a series of themes for the SDDM display manager made by Keyitdev.
 
 # --------------------------------------------------- // Theme Tools
 kvantum-qt5                                           # a SVG-based theme engine for QT5 and KDE
@@ -22,7 +28,19 @@ qt5ct                                                 # a configtool for QT5 (th
 qt6ct                                                 # (!archived) a configtool for QT6 (theme,font,icons,etc) under DE/WM without QT integration
 # qt5ct-kde                                             # (fork) a configtool for QT5 (theme,font,icons,etc) under DE/WM without QT integration
 # qt6ct-kde                                             # (fork) a configtool for QT6 (theme,font,icons,etc) under DE/WM without QT integration
-themix-full-git                                       # a theme designer for GTK2/3, generating different color variations of Oomox
+themix-full-git                                       # [optional] a theme designer for GTK2/3, generating different color variations of Oomox
+
+# --------------------------------------------------- // 3rd party plasma6 applets
+plasma6-applets-panel-colorizer                       # panel colorizer
+plasma6-applets-plasmusic-toolbar                     # plamusic toolbar
+
+# --------------------------------------------------- // 3rd party kwin effect
+kwin-effect-rounded-corners-git                       # rounded corners for kwin
+# lightlyshaders-plasma6-git                            # [optional] (fork) rounded corners for kwin
+kwin-effects-forceblur                                # better blur for kwin
+
+# --------------------------------------------------- // integration for plasma6
+# plasma6-wallpapers-wallpaper-engine-git               # (!black screen issue) A kde wallpaper plugin integrating wallpaper engine
 
 # Repos:
 ######### GNOME/GTK
@@ -37,6 +55,14 @@ themix-full-git                                       # a theme designer for GTK
 # [themix-gui](https://github.com/themix-project/themix-gui)
 ######### Dependencies
 # [gtk3-classic](https://github.com/lah7/gtk3-classic)
+######### Grub Theme
+# [minegrub-theme](https://github.com/Lxtharia/minegrub-theme)
+# [double-minegrub-menu](https://github.com/Lxtharia/double-minegrub-menu)
+######### SDDM Theme
+# [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme)
+# [sddm-theme-minesddm](https://github.com/Davi-S/sddm-theme-minesddm)
+######### 3rd party kwin effect
+# [LightlyShaders](https://github.com/a-parhom/LightlyShaders)
 
 # References:
 #########

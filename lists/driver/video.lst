@@ -1,0 +1,15 @@
+# --------------------------------------------------- // Generic Codecs
+ffmpeg
+gstreamer
+mesa
+
+# --------------------------------------------------- // Hardware video acceleration for Intel
+intel-media-driver
+libva-intel-driver
+
+# --------------------------------------------------- // Hardware video acceleration for NVIDIA
+libva-nvidia-driver
+
+# --------------------------------------------------- // Utils
+libva-utils
+vdpauinfo

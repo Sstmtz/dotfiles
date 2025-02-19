@@ -17,7 +17,8 @@ discord                                               # All-in-one voice and tex
 telegram-desktop                                      # New era of messaging 
 
 # --------------------------------------------------- // Online Music Client
-spotify                                               # Spotify GUI client
+# spotify                                               # Spotify GUI client
+spotify-launcher                                      # Spotify GUI client
 splayer-appimage                                      # (!Beta) (Chinese) A Third Netease Music player (Electron)
 # splayer--bin                                        # (Chinese) A Third Netease Music player (Non-Electron)
 
@@ -25,11 +26,23 @@ splayer-appimage                                      # (!Beta) (Chinese) A Thir
 # bilibili-bin                                          # (!high cpu) (Chinese) Bilibili GUI client for linux (Based on Electron)
 # bilibili-appimage                                     # (!high cpu) (Chinese) Bilibili GUI client for linux (Based on Electron) 
 
+# --------------------------------------------------- // Local Video player
+mpv
+
+# --------------------------------------------------- // Local Music player
+strawberry
+
 # --------------------------------------------------- // Noting
 obsidian                                              # Markdown Noting Editor
 
 # --------------------------------------------------- // Office
 # onlyoffice-bin                                      # (!unstable) An office suite that combines text, spreadsheet and presentation editors
+
+# --------------------------------------------------- // Remote desktop
+rustdesk-bin                                          # (!wayland exprimental)
+
+# --------------------------------------------------- // Digital Audio Workstation
+# reaper                                                # (!high dpi issue & business)
 
 # --------------------------------------------------- // Optional Dependencies
 # lrzip                                                 # LRZ format support for ark

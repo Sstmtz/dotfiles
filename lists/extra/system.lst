@@ -14,3 +14,9 @@ hotspot                                               # the Linux perf GUI for p
 heaptrack                                             # a heap memory profiler for Linux
 gestures                                              # modern, minimal GUI app for libinput-gestures
 switcheroo-control                                    # D-Bus service to check the availability of dual-GPU
+sbctl                                                 # Secure Boot key manager
+udisks2                                               # Daemon, tools and libraries to access and manipulate disks, storage devices and technologies
+
+# --------------------------------------------------- // Service
+power-profiles-daemon                                 # Makes power profiles handling available over D-Bus
+grub-btrfs                                            # Include btrfs snapshots in GRUB boot options
