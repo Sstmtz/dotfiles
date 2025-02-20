@@ -24,9 +24,12 @@ source /usr/share/zinit/zinit.zsh
 zinit snippet OMZP::sudo
 zinit snippet OMZP::git
 
-zinit light zsh-users/zsh-autosuggestions
+# zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light chrissicool/zsh-256color
+
+zinit light Aloxaf/fzf-tab
+zstyle ':fzf-tab:*' fzf-command ftb-tmux-popup
 
 ####################################
 
