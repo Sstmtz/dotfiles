@@ -9,7 +9,7 @@
 - Application Appearance Style (KDE/QT): `Darkly`.
 - Application Appearance Style (Gnome/GTK): `Materia-dark`.
 - Plasma Appearance Style: `WhiteSur-dark`.
-- Window Decoration Style: `Darkly`.
+- Window Decoration Style: `Breeze-dark`.
 - Icon Theme: `Papirus-Dark`.
 - Cursor Theme: `Breeze`.
 - Welcome Screen: `Kuro`.
@@ -22,18 +22,21 @@ The following parts require manual installation and updates:
 
 *All of these applets are available in the KDE Store.*
 
-## 🧩 Widgets (Extensions)
+## 🧩 Plasma Widgets / Applets
 
 1. Top Panel
 
 From left to right, they are:
 
 - Application Launcher
-- Global Menu
+- Dolphin icon
 - Colors Picker
+- Global Menu
+- [PlasMuisc Toolbar](https://github.com/ccatterina/plasmusic-toolbar)
 - Virtual Desktops Switcher
 - System Tray
 - Digital Clock (Long Format)
+- [Panel Colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer) (Preset: `Transparent`)
 - Temporarily Show Desktop
 
 *All of these applets are available in the KDE Store.*
@@ -42,7 +45,7 @@ From left to right, they are:
 
 2. Right Panel
 
-It's just an icon task manager.
+It's just an icon task manager, And Use `Panel Colorizer` (Preset: `Dock`) to blur background.
 
 ## 🔡 Fonts
 
