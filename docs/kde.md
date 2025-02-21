@@ -13,12 +13,13 @@
 - Icon Theme: `Papirus-Dark`.
 - Cursor Theme: `Breeze`.
 - Welcome Screen: `Kuro`.
-- Login Screen (SDDM): none
+- Login Screen (SDDM): `MineSDDM Theme`.
 
 The following parts require manual installation and updates:
 
 - `Kuro` from Welcome Screen.
 - `WhiteSur-dark` from Plasma Appearance Style.
+- [MineSDDM](https://github.com/Lxtharia/double-minegrub-menu) give a script for automatic Installation.
 
 *All of these applets are available in the KDE Store.*
 
@@ -41,7 +42,8 @@ From left to right, they are:
 
 *All of these applets are available in the KDE Store.*
 
-**NOTICE: There is a Lenovo Legion logo in the system tray, which is `PlasmaVantage`. If you are using a laptop of this brand, you can download it directly from `KDE Discover`.**
+> [!NOTE]
+> There is a Lenovo Legion logo in the system tray, which is `PlasmaVantage`. If you are using a laptop of this brand, you can download it directly from `KDE Discover`.**
 
 2. Right Panel
 

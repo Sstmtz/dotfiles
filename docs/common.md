@@ -2,6 +2,14 @@
 
 **NOTICE: The following content is my customized general settings for reference only. Most of the required packages can be installed through the package manager, while only a small portion can be installed and updated manually.**
 
+## Grub
+
+The following parts require manual installation or updates:
+
+- Theme: [double-minegrub-menu](https://github.com/Lxtharia/double-minegrub-menu)
+
+Here is an SDDM theme that pairs well with it: [double-minegrub-menu](https://github.com/Lxtharia/double-minegrub-menu)
+
 ## Terminal
 
 ### Kitty
