@@ -1,3 +1,13 @@
+########################################################################################################################
+# NOTICE: I recommend using software from the official repositories provided by the distribution whenever possible,    #
+#         unless at least one of the following conditions is met:                                                      #
+#           1. Officially distributed only as a Flatpak, with no pacman package or AUR package provided.               #
+#           2. May have fixed some issues, such as cursor issue.                                                       #
+#           3. Used for setting up or managing Flatpak, such as warehouse and flatseal.                                #
+#           4. Achieve isolation and control permissions using sandboxing mechanisms, such as Proprietary software.    #
+#           5. Flatpak themes.                                                                                         #
+########################################################################################################################
+
 # --------------------------------------------------- // Themes
 org.gtk.Gtk3theme.Materia-dark                        # Materia Dark Theme for GTK
 org.gtk.Gtk3theme.Materia-light                       # Materia Light Theme for GTK
@@ -23,7 +33,7 @@ com.dec05eba.gpu_screen_recorder                      # A shadowplay-like screen
 org.zdoom.GZDoom                                      # Game engine for Classic Doom
 io.github.Youda008.DoomRunner                         # Preset-oriented graphical launcher of various ported Doom engines (an alternative to ZDL)
 com.qzandronum.Q-Zandronum                            # A Zandronum 3.0 fork with improved netcode, configurable movement and many small tweaks
-com.usebottles.bottles                                # Run Windows Software
+# com.usebottles.bottles                                # (!rewrite) Run Windows Software and Games
 
 # --------------------------------------------------- // Productivity
 org.libreoffice.LibreOffice                           # The LibreOffice productivity suite
@@ -39,7 +49,7 @@ org.upscayl.Upscayl                                   # Free and Open Source AI 
 com.github.jeromerobert.pdfarranger                   # Merge, shuffle, and crop PDFs
 
 # --------------------------------------------------- // Education
-net.ankiweb.Anki                                      # Powerful, intelligent flash cards
+net.ankiweb.Anki                                      # (!Proprietary) Powerful, intelligent flash cards
 
 # Repos:
 ######### Themes
