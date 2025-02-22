@@ -1,9 +1,9 @@
 # --------------------------------------------------- // package / environment management
 python-conda                                          # (!need manually install) OS-agnostic, system-level binary package manager and ecosystem
-npm                                                   # javascript package manager
+npm                                                   # Javascript package manager
 
 # --------------------------------------------------- // version control
-nvm                                                   # node version control, to manage multiple active node.js versions
+nvm                                                   # Node version control, to manage multiple active node.js versions
 
 # --------------------------------------------------- // offline Manual
 man-db                                                # A utility for reading man pages
@@ -14,4 +14,4 @@ man-pages
 jre21-openjdk                                         # OpenJDK Java 21 full runtime environment 
 
 # --------------------------------------------------- // utility
-github-cli
+github-cli                                            # The GitHub CLI

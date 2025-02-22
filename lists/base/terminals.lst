@@ -1,17 +1,17 @@
 # --------------------------------------------------- // Terminal emulator
 kitty                                                 # A modern, hackable, featureful, OpenGL-based terminal emulator 
-# alacritty                                           # A cross-platform, GPU-accelerated terminal emulator
+# alacritty                                           # [optional] A cross-platform, GPU-accelerated terminal emulator
 
 # --------------------------------------------------- // Terminal multiplexer / workspaces
-tmux                                                  # ( default )
-# zellij                                              # ( optional )
+tmux                                                  # Provide minimal configuration and high customization.
+# zellij                                              # [optional] Provide an out-of-the-box experience.
 
 # --------------------------------------------------- // Main CLI tools
 vim                                                   # a text editor
 neovim                                                # a text editor
-# emacs                                               # the extensible, customizable, self-documenting real-time display editor
+# emacs                                               # [optional] the extensible, customizable, self-documenting real-time display editor
 yazi                                                  # a file manager (TUI)
-# ranger                                              # a file manager (TUI)
+# ranger                                              # [optional] a file manager (TUI)
 
 # --------------------------------------------------- // Useful CLI tools
 fastfetch                                             # show system information

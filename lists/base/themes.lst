@@ -1,9 +1,15 @@
 # --------------------------------------------------- // Dependencies
+qt5-wayland                                           # wayland support in qt5
+qt6-wayland                                           # wayland support in qt6
 kde-gtk-config                                        # KDE integration for Gnome/GTK Applications Style
 gtk3-classic                                          # Patches to bring back a traditional experience for GTK+3
 gnome-settings-daemon
 gsettings-desktop-schemas
 gsettings-qt
+plymouth-kcm                                          # Integration into KDE Plasma's settings
+qt5-quickcontrols                                     # for sddm theme ui elements
+qt5-quickcontrols2                                    # for sddm theme ui elements
+qt5-graphicaleffects                                  # for sddm theme effects
 
 # --------------------------------------------------- // Gnome/GTK Theme
 breeze-gtk                                            # KDE breeze Theme for GTK2/3
@@ -16,12 +22,16 @@ papirus-icon-theme-git                                # Papirus Icon Theme for Q
 darkly-bin                                            # (fork) Darkly Application Style for QT5/6
 
 # --------------------------------------------------- // Grub Theme
-# grub-theme-minegrub-git                             # (!archived) A Grub Theme in the style of Minecraft!
+# grub-theme-minegrub-git                             # (!archived package) A Grub Theme in the style of Minecraft!
 
 # --------------------------------------------------- // SDDM Theme
 sddm-astronaut-theme                                  # (1080p) a series of themes for the SDDM display manager made by Keyitdev.
 
+# --------------------------------------------------- // Boot Theme
+minecraft-plymouth-theme-git                          # A Minecraft loading screen styled Plymouth theme, inspired by MineGRUB
+
 # --------------------------------------------------- // Theme Tools
+# nwg-look                                              # gtk configuration tool
 kvantum-qt5                                           # a SVG-based theme engine for QT5 and KDE
 kvantum                                               # a SVG-based theme engine for QT6 and KDE
 qt5ct                                                 # a configtool for QT5 (theme,font,icons,etc) under DE/WM without QT integration
@@ -40,7 +50,7 @@ kwin-effect-rounded-corners-git                       # rounded corners for kwin
 kwin-effects-forceblur                                # better blur for kwin
 
 # --------------------------------------------------- // integration for plasma6
-# plasma6-wallpapers-wallpaper-engine-git               # (!black screen issue) A kde wallpaper plugin integrating wallpaper engine
+# plasma6-wallpapers-wallpaper-engine-git               # [optional] (!black screen issue) A kde wallpaper plugin integrating wallpaper engine
 
 # Repos:
 ######### GNOME/GTK

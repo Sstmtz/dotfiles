@@ -4,12 +4,13 @@ wireshark-qt                                          # a network traffic analyz
 # --------------------------------------------------- // Audio
 waylyrics                                             # Show desktop lyrics in a furry way
 
+# --------------------------------------------------- // Documents
+typst                                                 # A markup-based typesetting system for the sciences
+
 # --------------------------------------------------- // Misc
 # emote                                                 # Emoji Picker
 nvtop                                                 # a cli to monitor nvidia gpu
 intel-gpu-tools                                       # a cli to monitor intel gpu
-downgrade                                             # a cli to downgrade packages
-trash-cli-git                                         # a cli to manage trash files
 
 # --------------------------------------------------- // Customozation
 spicetify-cli                                         # a cli to customize spotify client

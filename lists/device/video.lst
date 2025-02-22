@@ -1,15 +1,15 @@
 # --------------------------------------------------- // Generic Codecs
-ffmpeg
-gstreamer
-mesa
+ffmpeg                                                # Complete solution to record, convert and stream audio and video
+gstreamer                                             # Multimedia graph framework - core
+mesa                                                  # Open-source OpenGL drivers
 
 # --------------------------------------------------- // Hardware video acceleration for Intel
-intel-media-driver
-libva-intel-driver
+intel-media-driver                                    # (Broadwell+ iGPUs) Intel Media Driver for VAAPI
+libva-intel-driver                                    # VA-API implementation for Intel G45 and HD Graphics family
 
 # --------------------------------------------------- // Hardware video acceleration for NVIDIA
-libva-nvidia-driver
+libva-nvidia-driver                                   # VA-API implementation that uses NVDEC as a backend
 
 # --------------------------------------------------- // Utils
-libva-utils
-vdpauinfo
+libva-utils                                           # Intel VA-API Media Applications and Scripts for libva
+vdpauinfo                                             # Command line utility for querying the capabilities of a VDPAU device

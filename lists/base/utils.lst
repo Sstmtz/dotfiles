@@ -3,6 +3,7 @@ fzf                                                   # fuzzy finder
 wl-clipboard                                          # command-line copy/paste utilities for Wayland
 locate                                                # alternative to locate, faster and compatible with mlocate's database
 ueberzugpp                                            # allows to draw images on terminals by using X11/wayland child windows, sixels, kitty and iterm2..
+chafa                                                 # Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc
 
 # --------------------------------------------------- // Enhanced commands
 eza                                                   # better ls
@@ -25,6 +26,8 @@ lazydocker                                            # a simple terminal UI for
 
 # --------------------------------------------------- // Common Tools
 swappy                                                # A Wayland native snapshot editing tool
+downgrade                                             # a cli to downgrade packages
+trash-cli-git                                         # a cli to manage trash files
 
 # Repos:
 ######### Enhanced commands

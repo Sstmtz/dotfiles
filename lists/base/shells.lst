@@ -1,6 +1,6 @@
 # --------------------------------------------------- // Shells
-zsh
-fish
+zsh                                                   # Most suitable for customization
+fish                                                  # Provides an Out-of-the-box experience
 
 # --------------------------------------------------- // Plugins
 zinit                                                 # zsh plugin manager

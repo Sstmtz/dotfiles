@@ -1,7 +1,7 @@
 # --------------------------------------------------- // Proxy / VPN GUI client
 v2rayN-bin                                            # supports Xray and sing-box...
 # clash-verge-rev-bin                                 # based on Tauri ...
-# nekoray
+# nekoray                                             # Qt based cross-platform GUI proxy configuration manager (backend: sing-box)
 
 # Repos:
 ######### GUI client

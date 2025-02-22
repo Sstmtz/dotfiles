@@ -10,21 +10,25 @@ zen-browser-bin                                       # (!Beta) Performance orie
 chromium                                              # Google Open-Source Chrome
 # vivaldi                                               # An advanced browser made with the power user in mind (Besed on chromium)
 
+# --------------------------------------------------- // Text Editor
+code                                                  # Offical Arch Linux Open-Source release
+imhex-bin                                             # A Hex Editor for Reverse Engineers
+
 # --------------------------------------------------- // Online Chat
-linuxqq                                               # (Chinese) Tencent QQ
-wechat-bin                                            # (Chinese) Tencent Wechat
+linuxqq                                               # (!Proprietary) (Chinese) Tencent QQ
+wechat-bin                                            # (!Proprietary) (Chinese) Tencent Wechat
 discord                                               # All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.
-telegram-desktop                                      # New era of messaging 
+telegram-desktop                                      # New era of messaging
 
 # --------------------------------------------------- // Online Music Client
 # spotify                                               # Spotify GUI client
 spotify-launcher                                      # Spotify GUI client
 splayer-appimage                                      # (!Beta) (Chinese) A Third Netease Music player (Electron)
-# splayer--bin                                        # (Chinese) A Third Netease Music player (Non-Electron)
+# splayer-bin                                        # (Chinese) A Third Netease Music player (Non-Electron)
 
 # --------------------------------------------------- // Online Video Client
-# bilibili-bin                                          # (!high cpu) (Chinese) Bilibili GUI client for linux (Based on Electron)
-# bilibili-appimage                                     # (!high cpu) (Chinese) Bilibili GUI client for linux (Based on Electron) 
+# bilibili-bin                                          # (!high cpu usage) (Chinese) Bilibili GUI client for linux (Based on Electron)
+# bilibili-appimage                                     # (!high cpu usage) (Chinese) Bilibili GUI client for linux (Based on Electron) 
 
 # --------------------------------------------------- // Local Video player
 mpv
@@ -43,6 +47,7 @@ rustdesk-bin                                          # (!wayland exprimental)
 
 # --------------------------------------------------- // Digital Audio Workstation
 # reaper                                                # (!high dpi issue & business)
+# zrythm                                                # (v1) Highly automated and intuitive digital audio workstation
 
 # --------------------------------------------------- // Optional Dependencies
 # lrzip                                                 # LRZ format support for ark
@@ -52,6 +57,7 @@ rustdesk-bin                                          # (!wayland exprimental)
 unrar                                                 # RAR decompression support for ark
 
 ffmpegthumbs                                          # video thumbnails / preview support for dolphin
+qt5-imageformats                                      # image thumbnails / preview support for dolphin 
 kde-cli-tools                                         # editing file type options support for dolphin
 # kdegraphics-thumbnailers                              # PDF and PS thumbnails / preview support for dolphin
 kdenetwork-filesharing                                # samba usershare properties menu support for dolphin

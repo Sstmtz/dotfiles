@@ -10,7 +10,7 @@ blender                                               # Open-Source 3D Modeling 
 
 # --------------------------------------------------- // Drawing
 # gimp                                                  # (!RC) GNU Image Manipulation Program
-krita                                                 # KDE Digital Drawing tool 
+krita                                                 # (!hidpi issue)KDE Digital Drawing tool 
 
 # --------------------------------------------------- // Record & Streaming
 obs-studio                                            # Open-Source Record and Streaming Software
