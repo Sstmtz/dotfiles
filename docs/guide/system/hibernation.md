@@ -63,7 +63,7 @@ When using a busybox-based initramfs, which is the default, the resume hook is r
 HOOKS=(base udev autodetect microcode modconf kms keyboard keymap consolefont block filesystems resume fsck)
 ```
 
->> [!NOTE]
+> [!NOTE]
 > When an initramfs with the `systemd` hook is used, a resume mechanism is already provided, and no further hooks need to be added.
 
 ## Hibernate to the swap file or partition
@@ -88,7 +88,7 @@ filefrag -v /swap/swapfile | awk '$1=="0:" {print substr($4, 1, length($4)-2)}'
 
 Finally, add the following content to the `/etc/default/grub`:
 
->> [!NOTE]
+>[!NOTE]
 > if you use swap partition, you don't need to set `resume_offset`
 
 ```sh

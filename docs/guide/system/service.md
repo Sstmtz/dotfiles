@@ -5,7 +5,7 @@
 [Ananicy](https://github.com/Nefelim4ag/Ananicy) (ANother Auto NICe daemon) — is a shell daemon created to manage processes' IO and CPU priorities, with community-driven set of rules for popular applications (anyone may add their own rule via github's pull request mechanism). It's mainly for desktop usage.
 
 > [!WARNING]
-> Ananicy had been achived by the owner on Oct 24, 2023.
+> Ananicy had been archived by the owner on Oct 24, 2023.
 
 [Ananicy CPP](https://gitlab.com/ananicy-cpp/ananicy-cpp) is a fork of the daemon of the same name that distributes task priorities. Its installation significantly improves system responsiveness. Unlike the original Ananicy, this fork is completely rewritten in C++, which results in an increase in performance.
 
