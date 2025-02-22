@@ -112,7 +112,7 @@ Edit /etc/pacman.d/alhp-mirrorlist and comment in/out the mirrors you want to en
 
 ### 4.  Modify pacman.conf
 
-Add the ALHP repos to your /etc/pacman.conf. Make sure the appropriate ALHP repository is above the Archlinux repo.
+Add the ALHP repos to your `/etc/pacman.conf`. Make sure the appropriate ALHP repository is above the Archlinux repo.
 
 ```txt
 [core-x86-64-v3]

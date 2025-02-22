@@ -39,10 +39,11 @@ Exec=env GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx QT_FONT_DPI=169 QT_AUTO_SCREEN_S
 ```
 
 > [!NOTE]
-> `GTK_IM_MODULE=fcitx`: Resolve the issue of fcitx5 input method not being available.
-> `QT_IM_MODULE=fcitx`: Resolve the issue of fcitx5 input method not being available.
-> `QT_FONT_DPI=169`: Fix issues such as fonts being too small on HiDPI displays (default is 96(1.0)).
-> `QT_AUTO_SCREEN_SCALE_FACTOR=1`: Fix scaling issues.
+>
+> - `GTK_IM_MODULE=fcitx`: Resolve the issue of fcitx5 input method not being available.
+> - `QT_IM_MODULE=fcitx`: Resolve the issue of fcitx5 input method not being available.
+> - `QT_FONT_DPI=169`: Fix issues such as fonts being too small on HiDPI displays (default is 96(1.0)).
+> - `QT_AUTO_SCREEN_SCALE_FACTOR=1`: Fix scaling issues.
 
 You can refer to [wechat.desktop](../../../home/dot_local/share/applications/wechat.desktop)
 

@@ -8,11 +8,11 @@ You can refer to my [kglobalshortcutsrc](../../home/dot_config/executable_kgloba
 
 ## Laucher
 
-Terminal emulator: `kitty`
-File explorer: `dolphin`
-Text editor: `code`
-Web browser: `firefox`
-Search menu: `krunner`
+- Terminal emulator: `kitty`
+- File explorer: `dolphin`
+- Text editor: `code`
+- Web browser: `firefox`
+- Search menu: `krunner`
 
 | Keys                                                 | Action                          |
 | :--------------------------------------------------- | :------------------------------ |
