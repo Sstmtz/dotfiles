@@ -29,7 +29,7 @@ Text in the VMware application is rendered at an appropriate size following the 
 
 To fix this issue, you can use the following steps:
 
-First, copy `wechat.desktop` to the local `applications` folder.
+First, copy `vmware-workstation.desktop` to the local `applications` folder.
 
 ```sh
 sudo cp /usr/share/applications/vmware-workstation.desktop ~/.local/share/applications/
