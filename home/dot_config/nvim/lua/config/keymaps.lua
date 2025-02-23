@@ -3,4 +3,5 @@
 -- Add any additional keymaps here
 local map = vim.keymap.set
 
-map("n", "<C-n>", "<cmd>Neotree toggle<cr>", { desc = "Toggle file explorer" })
+-- not use neotree, it had been replaced by snacks_explorer
+-- map("n", "<C-n>", "<cmd>Neotree toggle<cr>", { desc = "Toggle file explorer" })
