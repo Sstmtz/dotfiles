@@ -27,8 +27,9 @@ GRUB_CMDLINE_LINUX_DEFAUL='... splash quiet ...'
 ```
 
 > [!NOTE]
-> `splash`: enable splash screen.
-> `quiet`: enable slient boot.
+>
+> - `splash`: enable splash screen.
+> - `quiet`: enable slient boot.
 > Finally, Don't forget to run `sudo grub-mkconfig -o /boot/grub/grub.cfg` to regenerate the GRUB UEFI boot entry.
 
 ## 3. Add hook
