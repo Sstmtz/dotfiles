@@ -1,8 +1,12 @@
-README.md
+.git/
+.gitignore
 LICENSE
+README.md
+References.md
 
-scripts/
-lists/
+asserts/
 docs/
+lists/
+scripts/
 
 Logs/

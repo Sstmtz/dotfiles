@@ -1,11 +1,15 @@
 key.txt.age
 
-dot_config/alactritty/
-dot_config/zellij/
-dot_config/mpv/
+.ssh/
 
-dot_config/fcitx5/
-dot_config/go-musicfox/
+.config/alactritty/
+.config/zellij/
+.config/mpv/
 
-executable_kglobalshortcutsrc
-executable_dolphinrc
+.config/clangd/
+.config/fcitx5/
+.config/go-musicfox/
+
+.config/plasma-workspace/
+.config/executable_kglobalshortcutsrc
+.config/executable_dolphinrc
