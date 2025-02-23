@@ -1,5 +1,7 @@
 #!/bin/env bash
 
+# install plugins
+
 # keymap
 ya pack -a pirafrank/what-size
 ya pack -a Lil-Dank/lazygit

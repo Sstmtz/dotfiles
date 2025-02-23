@@ -16,8 +16,8 @@ The difference compared to zram is that zswap works in conjunction with a swap d
 # 1. If use zram-generator, run the following command to disable zram:
 sudo systemctl mask systemd-zram-setup@zram0.service
 # 2. If manually set (based on udev rules), run the following command to disable zram:
-sudo mv /etc/modules-load.d/zram.conf /etc/modules-load.d/zram.conf.bak
-sudo mv /etc/modules-load.d/30-zram.conf mv /etc/modules-load.d/30-zram.conf.bak
+sudo mv /etc/modules-load.d/zram.conf{,.bak}
+sudo mv /etc/modules-load.d/30-zram.conf{,.bak}
 # then, delete the following line from `/etc/fstab`:
 # /etc/fstab/dev/zram0 none swap defaults,pri=100 0 0
 ```

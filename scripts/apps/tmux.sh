@@ -7,4 +7,6 @@ mkdir -p ~/.config/tmux/
 # clone tpm
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 # reload tmux environment so tpm is sourced
-tmux source ~/.tmux.conf
+
+# install plugins
+bash ~/.tmux/plugins/tpm/bin/install_plugins

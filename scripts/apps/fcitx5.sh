@@ -1,5 +1,6 @@
 #!/bin/env bash
 
+# add environment variables
 input_method='INPUT_METHOD=fcitx'
 xmodifiers='XMODIFIERS="@im=fcitx"'  # xim for xwayland support
 sdl_im_module='SDL_IM_MODULE=fcitx'  # for sdl2 support
@@ -32,6 +33,18 @@ fi
 # if ! grep -q "^$qt_im_module" /etc/environment; then
 # 	echo "$qt_im_module" | sudo tee -a /etc/environment >/dev/null
 # fi
+
+if ! grep -q "gtk-im-module="fcitx"" $HOME/.gtkrc-2.0; then
+	echo "gtk-im-module="fcitx"" | sudo tee -a /etc/environment >/dev/null
+fi
+
+if ! grep -q "gtk-im-module=fcitx" $HOME/.config/gtk-3.0/settings.ini; then
+	echo "gtk-im-module=fcitx" | sudo tee -a /etc/environment >/dev/null
+fi
+
+if ! grep -q "gtk-im-module=fcitx" $HOME/.config/gtk-4.0/settings.ini; then
+	echo "gtk-im-module=fcitx" | sudo tee -a /etc/environment >/dev/null
+fi
 
 # References:
 # https://wiki.archlinux.org/title/Fcitx5#IM_modules
