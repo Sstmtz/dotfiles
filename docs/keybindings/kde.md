@@ -31,7 +31,7 @@ You can refer to my [kglobalshortcutsrc](../../home/dot_config/executable_kgloba
 
 | Keys                                                 | Action                          |
 | :--------------------------------------------------- | :------------------------------ |
-| <kbd>Ctrl</kbd> + <kbd>Q</kbd>                       | close current window            |
+| <kbd>Alt</kbd> + <kbd>F4</kbd>                       | close current window            |
 | <kbd>Alt</kbd> + <kbd>Enter</kbd>                    | maximize the window (fullscreen)|
 | <kbd>SUPER</kbd> + <kbd>Enter</kbd>                  | minimize the window             |
 

@@ -4,7 +4,7 @@
 
 ### configurate makepkg.conf
 
-Create a user configuration file `~/.makepkg.conf` in the home directory to override system settings:
+Create a user configuration file `~/.makepkg.conf` or `~/.config/pacman/makepkg.conf` in the home directory to override system settings:
 
 ```sh
 CFLAGS="-march=native -mtune=native -O2 -pipe -fno-plt -fexceptions \
@@ -22,7 +22,7 @@ MAKEFLAGS="-j$(nproc) -l$(nproc)"
 
 Ccache is a cache for C/C++ compilers, specifically compatible with GCC/Clang, aimed at speeding up the process of recompiling the same code. This means that if the same source code blocks are found when building a new version of a program compared to an old version, those source files will not be recompiled. Instead, the previously compiled code will be retrieved from the ccache cache. It is through this method that the compilation process achieves significant acceleration.
 
-Add the following content to `~/.makepkg.conf`:
+Add the following content to `~/.makepkg.conf` or `~/.config/pacman/makepkg.conf`:
 
 ```sh
 BUILDENV=(!distcc color ccache check !sign)
@@ -108,7 +108,7 @@ yay -S alhp-keyring alhp-mirrorlist
 
 ### 3. Choose a mirror (optional)
 
-Edit /etc/pacman.d/alhp-mirrorlist and comment in/out the mirrors you want to enable/disable. By default, a CDN mirror provided by ALHP is selected.
+Edit `/etc/pacman.d/alhp-mirrorlist` and comment in/out the mirrors you want to enable/disable. By default, a CDN mirror provided by ALHP is selected.
 
 ### 4.  Modify pacman.conf
 
@@ -143,3 +143,4 @@ Replace x86-64-v3 with the x86-64 feature level you want to enable.
 
 - [AUR: build](https://ventureo.codeberg.page/source/build.html#)
 - [wiki.archlinux.org: Improving performance](https://wiki.archlinux.org/title/Improving_performance)
+- [wiki.archlinux.org: MakePkg](https://wiki.archlinux.org/title/Makepkg)

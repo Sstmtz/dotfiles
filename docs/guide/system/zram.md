@@ -4,7 +4,7 @@
 
 It is important to note that when using ZRAM, you do not need to disable the regular swap space if it has already been configured. In this case, the kernel will default to using the partition or file mounted at the service mount point [swap] as the primary swap space, which has a higher priority than others. Therefore, if you set the priority of ZRAM to 100, as we do in the /etc/fstab file below, the regular disk swap space will only be used by the kernel as a backup in case ZRAM overflows, or when using the hibernation feature, which can only work with disk swap space.
 
-In most cases, you should only use `zstd`, as it is optimized for speed and compression efficiency. `LZ4` may be faster during decompression, but it doesn't have much advantage in other aspects. `LZO` should only be used on very weak processors that cannot compress a large number of pages using Zstd.
+In most cases, you should only use `zstd`, as it is optimized for speed and compression efficiency. `LZ4` may be faster during decompression, but it doesn't have much advantage in other aspects. `LZO` should only be used on very weak processors that cannot compress a large number of pages using zstd.
 
 ## How to do ?
 
@@ -48,7 +48,7 @@ fs-type = swap
 Then Start the service:
 
 ```sh
-sudo daemon-reload
+systemctl daemon-reload
 sudo systemctl enable --now systemd-zram-setup@zram0.service
 ```
 
