@@ -1,14 +1,27 @@
 # Common Settings
 
-**NOTICE: The following content is my customized general settings for reference only. Most of the required packages can be installed through the package manager, while only a small portion can be installed and updated manually.**
+> [!WARNING]
+> The following content is my customized general settings for reference only. Most of the required packages can be installed through the package manager, while only a small portion can be installed and updated manually.
+
+## Boot (by Plymouth)
+
+- Theme: [Minecraft Plymouth Theme](https://github.com/nikp123/minecraft-plymouth-theme) by install `minecraft-plymouth-theme-git` AUR package.
+
+How to set boot theme? Please to refer to [boot.md](../docs/guide/themes/boot.md)
 
 ## Grub
 
-The following parts require manual installation or updates:
+- Theme: [Minegrub Theme](https://github.com/Lxtharia/double-minegrub-menu) by manual installation.
 
-- Theme: [double-minegrub-menu](https://github.com/Lxtharia/double-minegrub-menu)
+How to set grub theme? Please to refer to [grub.md](../docs/guide/themes/grub.md)
 
-Here is an SDDM theme that pairs well with it: [double-minegrub-menu](https://github.com/Lxtharia/double-minegrub-menu)
+## SDDM
+
+- Theme: [MineSDDM Theme](https://github.com/Davi-S/sddm-theme-minesddm) by manual installation.
+
+How to set sddm theme? Please to refer to [sddm.md](../docs/guide/themes/sddm.md)
+
+---
 
 ## Terminal
 
