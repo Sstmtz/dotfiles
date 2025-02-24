@@ -2,7 +2,8 @@
 
 Here are all KDE specific keybindings listed.
 
-- KDE Keybinding File: `~/.config/kglobalshortcutsrc`
+> [!TIP]
+> KDE keybindings file: `~/.config/kglobalshortcutsrc`
 
 You can refer to my [kglobalshortcutsrc](../../home/dot_config/executable_kglobalshortcutsrc).
 

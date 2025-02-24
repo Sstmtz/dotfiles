@@ -1,5 +1,11 @@
 # WeChat (微信)
 
+> [!WARNING]
+> The content here may be outdated, and some parts have been adjusted according to my own needs, so it may not be applicable to you. The best approach is to refer to the official documentation, such as the `Arch Linux Wiki`. Or refer to the link below.
+
+> [!WARNING]
+> The software is only designed for Chinese users and does not offer other languages.
+
 ## Installation
 
 You can install `wechat-bin` or `wechat`.
@@ -7,9 +13,12 @@ You can install `wechat-bin` or `wechat`.
 ```sh
 # Official vesion, supports Mini Programs, Moments, VoIP and more.
 sudo pacman -S wechat-bin
-# Sandbox version, and provides other fixes for input method, HiDPI and more.
+# provides other fixes for input method, HiDPI and more.
 sudo pacman -S wechat
 ```
+
+> [!NOTE]
+> if you have installed `wechat`, it already fixes the following issues, you can skip the following steps.
 
 ## Fix issues
 
@@ -45,8 +54,9 @@ Exec=env GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx QT_FONT_DPI=169 QT_AUTO_SCREEN_S
 > - `QT_FONT_DPI=169`: Fix issues such as fonts being too small on HiDPI displays (default is 96(1.0)).
 > - `QT_AUTO_SCREEN_SCALE_FACTOR=1`: Fix scaling issues.
 
-You can refer to [wechat.desktop](../../../home/dot_local/share/applications/wechat.desktop)
+You can refer to my [wechat.desktop](../../../home/dot_local/share/applications/wechat.desktop)
 
 ## References
 
 - [wiki.archlinux.org: Wechat](https://wiki.archlinux.org/title/WeChat)
+- [wiki.archlinuxcn.org: 微信](https://wiki.archlinuxcn.org/wiki/微信)

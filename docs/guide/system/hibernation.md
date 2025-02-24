@@ -1,5 +1,8 @@
 # Hibernation
 
+> [!WARNING]
+> The content here may be outdated, and some parts have been adjusted according to my own needs, so it may not be applicable to you. The best approach is to refer to the official documentation, such as the `Arch Linux Wiki`. Or refer to the link below.
+
 ## Introduction
 
 In order to use hibernation, you must create a swap partition or file, configure the initramfs so that the resume process will be initiated in early userspace, and specify the location of the swap space in a way that is available to the initramfs, e.g. HibernateLocation EFI variable defined by systemd or resume= kernel parameter. These three steps are described in detail below.

@@ -1,5 +1,8 @@
 # ZARM
 
+> [!WARNING]
+> The content here may be outdated, and some parts have been adjusted according to my own needs, so it may not be applicable to you. The best approach is to refer to the official documentation, such as the `Arch Linux Wiki`. Or refer to the link below.
+
 ## Introduction
 
 It is important to note that when using ZRAM, you do not need to disable the regular swap space if it has already been configured. In this case, the kernel will default to using the partition or file mounted at the service mount point [swap] as the primary swap space, which has a higher priority than others. Therefore, if you set the priority of ZRAM to 100, as we do in the /etc/fstab file below, the regular disk swap space will only be used by the kernel as a backup in case ZRAM overflows, or when using the hibernation feature, which can only work with disk swap space.

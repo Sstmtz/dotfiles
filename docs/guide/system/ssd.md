@@ -1,5 +1,8 @@
 # SSD
 
+> [!WARNING]
+> The content here may be outdated, and some parts have been adjusted according to my own needs, so it may not be applicable to you. The best approach is to refer to the official documentation, such as the `Arch Linux Wiki`. Or refer to the link below.
+
 ## TRIM
 
 TRIM is a built-in command in the controller used to clear cells on a solid-state drive (SSD) that are no longer in use. Regular execution of it is very useful for preventive maintenance of the SSD. To automate this process to run once a week, it is recommended to enable the prepared service.

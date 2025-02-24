@@ -1,5 +1,8 @@
 # VMware
 
+> [!WARNING]
+> The content here may be outdated, and some parts have been adjusted according to my own needs, so it may not be applicable to you. The best approach is to refer to the official documentation, such as the `Arch Linux Wiki`. Or refer to the link below.
+
 ## Installation
 
 At first, install the following packages:
@@ -42,7 +45,7 @@ Then, edit `~/.local/share/applications/vmware-workstation.desktop` and add the 
 Exec=env GDK_SCALE=2 GDK_DPI_SCALE=0.5 ...
 ```
 
-You can refer to [vmware-workstation.desktop](../../../home/dot_local/share/applications/vmware-workstation.desktop)
+You can refer to my [vmware-workstation.desktop](../../../home/dot_local/share/applications/vmware-workstation.desktop)
 
 ## References
 

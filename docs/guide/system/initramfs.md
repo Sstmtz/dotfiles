@@ -1,5 +1,8 @@
 # Initramfs
 
+> [!WARNING]
+> The content here may be outdated, and some parts have been adjusted according to my own needs, so it may not be applicable to you. The best approach is to refer to the official documentation, such as the `Arch Linux Wiki`. Or refer to the link below.
+
 ## Introduction
 
 As mentioned earlier, initramfs is an initial boot environment that serves as a supplement to the Linux kernel image. It should contain all the modules and utilities required by the kernel for proper booting (primarily for mounting the root partition). To save space in the boot partition, this environment is provided in a self-extracting archive format, which is decompressed in real-time during the system boot process. In Arch Linux, the program used to generate initramfs is mkinitcpio, which by default uses the zstd algorithm for compression, known for its optimal compression and decompression speed metrics. Therefore, the compression speed of initramfs is not as critical, while the decompression speed is crucial, as it directly affects the system boot speed. Thus, to accelerate this process, it is preferable to use an algorithm with the fastest decompression speed: `lz4`.

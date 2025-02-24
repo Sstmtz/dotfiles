@@ -1,5 +1,8 @@
 # Service
 
+> [!WARNING]
+> The content here may be outdated, and some parts have been adjusted according to my own needs, so it may not be applicable to you. The best approach is to refer to the official documentation, such as the `Arch Linux Wiki`. Or refer to the link below.
+
 ## Ananicy Cpp
 
 [Ananicy](https://github.com/Nefelim4ag/Ananicy) (ANother Auto NICe daemon) — is a shell daemon created to manage processes' IO and CPU priorities, with community-driven set of rules for popular applications (anyone may add their own rule via github's pull request mechanism). It's mainly for desktop usage.
@@ -25,6 +28,9 @@ sudo systemctl restart ananicy-cpp
 
 > [!WARNING]
 > When using any of the schedulers from the `sched-ext` framework, it’s strongly advised to disable and avoid using `ananicy-cpp` due to possible conflicts because it amplifies the priority gap that the scheduler is already creating/handling by boosting interactive tasks creating an excessive prioritization starving other tasks increasing the chance of hitting the sched_ext watchdog timeout kicking the running scheduler aka causing an stall. please refer to [wiki.cachyos.org: sched-ext#disbale-ananicy-cpp](https://wiki.cachyos.org/configuration/sched-ext/#disable-ananicy-cpp).
+
+> [!WARNING]
+> `Ananicy/Ananicy-cpp` and `gamemode` conflict - do not use them together!"
 
 ---
 
