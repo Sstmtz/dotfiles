@@ -25,22 +25,23 @@ end
 alias cls='clear' # clear terminal
 alias mkdir='mkdir -p' # create directory
 alias alinux='activate-linux -f "CaskaydiaCove Nerd Font" -f "开苹方-简" --daemonize'
+alias cat='bat --theme-dark=base16'
 
-# List shortcuts
+# File list
 alias l='eza -lh --icons=auto' # long list
 alias ls='eza -1 --icons=auto' # short list
 alias ll='eza -lha --icons=auto --sort=name --group-directories-first' # long list all
 alias ld='eza -lhD --icons=auto' # long list dirs
 alias lt='eza --icons=auto --tree' # list folder as tree
 
-# Dirctory navigation shortcuts
+# Dirctory navigation
 alias ..='cd ..'
 alias ...='cd ../..'
 alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 
-# Package manager shortcuts
+# Package manager
 alias un='$aurhelper -Rns' # uninstall package
 alias up='$aurhelper -Syu' # update system/package/aur
 alias pl='$aurhelper -Qs' # list installed package

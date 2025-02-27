@@ -1,4 +1,4 @@
-# copy from https://github.com/archibate/vimrc/blob/nvim-2/dotfiles/.config/clangd/config.yaml
+# copied from https://github.com/archibate/vimrc/blob/nvim-2/dotfiles/.config/clangd/config.yaml
 CompileFlags:
   Add:
     - --no-cuda-version-check

@@ -9,6 +9,7 @@
     "separator": " : "
   },
   "modules": [
+    "break",
     {
       "type": "version",
       "key": "   fastfetch",
