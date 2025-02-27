@@ -14,5 +14,5 @@ zinit                                                 # zsh plugin manager
 starship                                              # The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 # --------------------------------------------------- // Scripts
+pokego-bin                                            # Go version of pokemon-colorscripts
 # pokemon-colorscripts-git                              # prints out colored unicode sprites of pokemon onto your terminal
-pokego-bin                                            # Go version of pokemon-colorscripts 

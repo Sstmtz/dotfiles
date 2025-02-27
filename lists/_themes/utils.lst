@@ -1,0 +1,11 @@
+# --------------------------------------------------- // Customozation
+betterdiscordctl-git                                  # A cli to customize discord client
+spicetify-cli                                         # A cli to customize spotify client
+# spicetify-marketplace-bin                             # [optional] Spotify integrated marketplace
+
+activate-linux-git                                    # [optional] The 'Activate Windows' watermark ported to Linux with Xlib and cairo in C
+# cool-retro-term                                       # [optional] A good looking terminal emulator which mimics the old cathode display
+# kando-bin                                             # [optional] A pie menu for the desktop. It will be highly customizable and will allow you to create your own menus and actions.
+
+# Notice:
+# [Upstream Unmaintained] cool-retro-term

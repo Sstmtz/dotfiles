@@ -1,0 +1,3 @@
+# --------------------------------------------------- // Network
+networkmanager                                         # network manager
+# network-manager-applet                                 # [optional] network manager system tray utility

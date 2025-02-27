@@ -1,19 +1,15 @@
-# --------------------------------------------------- // OTF
-otf-apple-pingfang-relaxed                            # (Chinese) PingFang (苹方) 支持简/繁/港
-
-# --------------------------------------------------- // TTF
+# --------------------------------------------------- // Common
 ttf-roboto                                            # RoBoto
 ttf-dejavu                                            # DejaVu
 ttf-jetbrains-mono-nerd                               # JetBrains Mono (Nerd Font)
 noto-fonts                                            # Google Noto
 noto-fonts-emoji                                      # Google Noto emoji
-noto-fonts-cjk                                        # (Chinese/Japanese/Korean) Google Noto
-adobe-source-han-sans-cn-fonts                       # (Chinese) Adobe Source Han Sans
-adobe-source-han-serif-cn-fonts                      # (Chinese) Adobe Source Han Serif  
 
-# Repos:
-#########
-#
+# --------------------------------------------------- // Specific
+# otf-apple-pingfang-relaxed                            # (Chinese) PingFang (苹方) 支持简/繁/港
+# noto-fonts-cjk                                        # (Chinese/Japanese/Korean) Google Noto
+# adobe-source-han-sans-cn-fonts                        # (Chinese) Adobe Source Han Sans
+# adobe-source-han-serif-cn-fonts                       # (Chinese) Adobe Source Han Serif
 
 # References:
 #########

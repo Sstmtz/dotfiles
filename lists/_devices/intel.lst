@@ -1,0 +1,6 @@
+# --------------------------------------------------- // Intel Driver
+intel-ucode                                           # Microcode update files for Intel CPUs
+mesa                                                  # Open-source OpenGL drivers
+lib32-mesa                                            # Open-source OpenGL drivers (32-bit)
+vulkan-intel                                          # Open-source Vulkan driver for Intel GPUs
+lib32-vulkan-intel                                    # Open-source Vulkan driver for Intel GPUs (32-bit)

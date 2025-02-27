@@ -9,16 +9,15 @@ tmux                                                  # Provide minimal configur
 # --------------------------------------------------- // Main CLI tools
 vim                                                   # a text editor
 neovim                                                # a text editor
-# emacs                                               # [optional] the extensible, customizable, self-documenting real-time display editor
+# emacs                                               # the extensible, customizable, self-documenting real-time display editor
 yazi                                                  # a file manager (TUI)
-# ranger                                              # [optional] a file manager (TUI)
+# ranger                                              # a file manager (TUI)
 
 # --------------------------------------------------- // Useful CLI tools
 fastfetch                                             # show system information
 cava                                                  # audio visualizer
 btop                                                  # a monitor
 htop                                                  # a monitor
-# sptlrx-bin                                            # Synchronized lyrics in your terminal 
 
 # Repos:
 ######### Terminal emulator
@@ -33,7 +32,3 @@ htop                                                  # a monitor
 # [emacs](https://github.com/emacs-mirror/emacs)
 # [yazi](https://github.com/sxyazi/yazi)
 # [ranger](https://github.com/ranger/ranger)
-
-# References:
-#########
-#

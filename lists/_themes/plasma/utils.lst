@@ -1,0 +1,24 @@
+# --------------------------------------------------- // Integration
+kde-gtk-config                                        # KDE integration for Gnome/GTK Applications Style
+plymouth-kcm                                          # KCM to manage the Plymouth (Boot) theme
+sddm-kcm                                              # KDE Config Module for SDDM
+# plasma6-wallpapers-wallpaper-engine-git               # [optional] (!black screen issue) A kde wallpaper plugin integrating wallpaper engine
+
+# --------------------------------------------------- // Theme tools
+# nwg-look                                              # gtk configuration tool
+kvantum-qt5                                           # a SVG-based theme engine for QT5 and KDE
+kvantum                                               # a SVG-based theme engine for QT6 and KDE
+# qt5ct                                                 # a configtool for QT5 (theme,font,icons,etc) under DE/WM without QT integration
+# qt6ct                                                 # (!archived) a configtool for QT6 (theme,font,icons,etc) under DE/WM without QT integration
+qt5ct-kde                                             # (fork) a configtool for QT5 (theme,font,icons,etc) under DE/WM without QT integration
+qt6ct-kde                                             # (fork) a configtool for QT6 (theme,font,icons,etc) under DE/WM without QT integration
+themix-full-git                                       # [optional] a theme designer for GTK2/3, generating different color variations of Oomox
+
+# --------------------------------------------------- // Plasma6 applets
+plasma6-applets-panel-colorizer                       # panel colorizer
+plasma6-applets-plasmusic-toolbar                     # plamusic toolbar
+
+# --------------------------------------------------- // Desktop effects
+kwin-effect-rounded-corners-git                       # rounded corners for kwin
+# lightlyshaders-plasma6-git                            # [optional] (fork) rounded corners for kwin
+kwin-effects-forceblur                                # better blur for kwin

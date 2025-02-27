@@ -1,0 +1,11 @@
+# NOTICE: Cursor themes are usually included in icon theme packages, as cursors themselves are a type of icon, but they are somewhat special.
+
+# --------------------------------------------------- // Icon themes (include cursor theme)
+breeze-icons                                          # KDE Plasma Breeze icon theme
+oxygen-icons                                          # KDE Plasma Oxygen icon theme
+
+# --------------------------------------------------- // Icon themes (not include cursor theme)
+papirus-icon-theme-git                                # Papirus icon theme
+
+# Known issues
+# 1. The Breeze cursor theme appears enlarged and blurry in GTK applications when used on KDE Plasma. (last updated: 2025-2-26.)

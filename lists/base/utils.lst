@@ -5,12 +5,13 @@ locate                                                # alternative to locate, f
 ueberzugpp                                            # allows to draw images on terminals by using X11/wayland child windows, sixels, kitty and iterm2..
 chafa                                                 # Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc
 
-# --------------------------------------------------- // Enhanced commands
+# --------------------------------------------------- // Alternative commands
 eza                                                   # better ls
 zoxide                                                # better cd
 bat                                                   # better cat
 ripgrep                                               # better grep
 fd                                                    # better find
+dust                                                  # better du
 
 # --------------------------------------------------- // Utilities for yazi
 glow                                                  # a markdown previewer
@@ -46,7 +47,3 @@ trash-cli-git                                         # a cli to manage trash fi
 ######### Utilities for nvim
 # [lazygit](https://github.com/jesseduffield/lazygit)
 # [lazydocker](https://github.com/jesseduffield/lazydocker)
-
-# References:
-#########
-#

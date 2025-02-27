@@ -1,0 +1,38 @@
+###########################################################################################################
+# NOTICE: The theme settings for KDE Plasma can be found in `System Settings` -> `Colors and Themes`,     #
+#         which includes the following sections:                                                          #
+#           1. Global Themes (Specific)                                                                   #
+#           2. [x] Colors (Specific)                                                                      #
+#           3. [x] Night Colors (Specific)                                                                #
+#           4. Application Appearance Style (Specific)                                                    #
+#           5. Plasma Appearance Style (Specific)                                                         #
+#           6. Windows Decoration Elements (Specific)                                                     #
+#           7. Icons                                                                                      #
+#           8. Cursors                                                                                    #
+#           9. [x] System Sounds (Specific)                                                               #
+#          10. [x] Weclome Screen (Specific)                                                              #
+#          11. Login Screen (SDDM)                                                                        #
+#          12. Boot Screen                                                                                #
+#                                                                                                         #
+# Among them, [x] indicates "not considered".                                                             #
+#             (Specific) means that it may be specific to the KDE Plasma.                                 #
+###########################################################################################################
+
+# --------------------------------------------------- // Global Themes
+breeze                                                # KDE Plasma breeze theme
+oxygen                                                # KDE Plasma oxygen theme
+
+# --------------------------------------------------- // Application Appearance Style [QT5/6]
+darkly-bin                                            # (fork) Darkly application appearance style for QT5/6
+
+# --------------------------------------------------- // Application Appearance Style [GTK2/3/4]
+materia-gtk-theme                                     # Materia application appearance style for GTK2/3/4
+# breeze-gtk                                            # [optional] KDE breeze theme for GTK2/3
+
+# --------------------------------------------------- // Plasma Appearance Style
+# darkly-bin                                            # (fork) Darkly Plasma Appearance Style for QT5/6
+
+# --------------------------------------------------- // Windows Decoration Elements
+
+# --------------------------------------------------- // Gnome GTK Theme
+breeze-gtk                                            # [optional] Breeze widget theme for GTK 2 and 3

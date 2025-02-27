@@ -1,0 +1,7 @@
+# --------------------------------------------------- // SDDM theme
+sddm-astronaut-theme                                  # a series of themes for the SDDM display manager made by Keyitdev.
+
+# --------------------------------------------------- // SDDM Dependencies
+qt5-quickcontrols                                     # for sddm theme ui elements
+qt5-quickcontrols2                                    # for sddm theme ui elements
+qt5-graphicaleffects                                  # for sddm theme effects
