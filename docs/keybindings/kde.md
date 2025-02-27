@@ -26,7 +26,7 @@ You can refer to my [kglobalshortcutsrc](../../home/dot_config/executable_kgloba
 | :--------------------------------------------------- | :------------------------------ |
 | <kbd>SUPER</kbd> + <kbd>V</kbd>                      | open clipboard manager          |
 | <kbd>SUPER</kbd> + <kbd>L</kbd>                      | lock screen                     |
-| <kbd>Alt</kbd> + <kbd>Space</kbd>                      | search menu                     |
+| <kbd>Alt</kbd> + <kbd>Space</kbd>                    | search menu                     |
 
 ## Windows
 

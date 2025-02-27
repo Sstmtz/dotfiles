@@ -20,7 +20,11 @@ pacman-contrib                                        # for system update check
 ffmpeg                                                # complete solution to record, convert and stream audio and video
 brightnessctl                                         # screen brightness control
 udiskie                                               # manage removable media
+
+# --------------------------------------------------- // Applications
 vim                                                   # a text editor
+code                                                  # Offical Arch Linux Open-Source release
+firefox                                               # Mozilla Web Browser
 
 # --------------------------------------------------- // Pre-launch
 grub                                                  # GNU GRand Unified Bootloader

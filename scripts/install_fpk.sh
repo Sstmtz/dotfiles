@@ -24,3 +24,15 @@ fi
 # Install apps from remote flathub
 flatpak install flathub ${listFpk}
 flatpak remove --unused
+
+flatpak --user override --filesystem=~/.themes
+flatpak --user override --filesystem=~/.icons
+
+flatpak --user override --filesystem=~/.local/share/themes
+flatpak --user override --filesystem=~/.local/share/icons
+
+# gtkTheme=$(gsettings get org.gnome.desktop.interface gtk-theme | sed "s/'//g")
+# gtkIcon=$(gsettings get org.gnome.desktop.interface icon-theme | sed "s/'//g")
+
+# flatpak --user override --env=GTK_THEME=${gtkTheme}
+# flatpak --user override --env=ICON_THEME=${gtkIcon}

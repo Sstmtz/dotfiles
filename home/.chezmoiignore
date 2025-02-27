@@ -1,15 +1,21 @@
 key.txt.age
-
 .ssh/
 
 .config/alactritty/
 .config/zellij/
 .config/mpv/
 
-.config/clangd/
 .config/fcitx5/
 .config/go-musicfox/
 
 .config/plasma-workspace/
 .config/executable_kglobalshortcutsrc
 .config/executable_dolphinrc
+
+.config/clangd/
+.clang-format
+
+bilibili-flags.conf
+chromium-flags.conf
+electron-flags.conf
+qq-flags.conf
