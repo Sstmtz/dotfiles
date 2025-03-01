@@ -22,18 +22,24 @@ net.nokyan.Resources                                  # Keep an eye on system re
 io.github.plrigaux.sysd-manager                       # A GUI to manage systemd units
 org.bleachbit.BleachBit                               # Cleans files to free disk space and to maintain privacy
 io.github.jonmagon.kdiskmark                          # Disk benchmark tool
+org.gnome.dspy                                        # Analyze D-Bus connections
 
 # --------------------------------------------------- // Video & Audio
 io.github.Predidit.Kazumi                             # Watch Animes online with danmaku support
 # io.github.waylyrics.Waylyrics                         # Show desktop lyrics in a furry way
 io.github.hypengw.Qcm                                 # Material3 cloud music player
 com.dec05eba.gpu_screen_recorder                      # A shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux
+# com.github.wwmm.easyeffects                           # Audio Effects for PipeWire Applications
+# com.github.wwmm.pulseeffects                          # Audio Effects for PulseAudio Applications
+# org.kde.audiotube                                     # [optional] YouTube Music app by KDE
 
 # --------------------------------------------------- // Game
 org.zdoom.GZDoom                                      # Game engine for Classic Doom
-io.github.Youda008.DoomRunner                         # Preset-oriented graphical launcher of various ported Doom engines (an alternative to ZDL)
+# io.github.Youda008.DoomRunner                         # Preset-oriented graphical launcher of various ported Doom engines (an alternative to ZDL)
 com.qzandronum.Q-Zandronum                            # A Zandronum 3.0 fork with improved netcode, configurable movement and many small tweaks
 # com.usebottles.bottles                                # (!rewrite) Run Windows Software and Games
+# io.itch.amcsquad.amcsquad                           # [Game] Retro FPS with modern sensibilities
+# net.minetest.Minetest                                 # Block-based multiplayer game platform
 
 # --------------------------------------------------- // Productivity
 org.libreoffice.LibreOffice                           # The LibreOffice productivity suite

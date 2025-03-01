@@ -6,7 +6,9 @@ ark                                                   # KDE archive manager
 
 # --------------------------------------------------- // Web Browser
 firefox                                               # Mozilla Web Browser
+# firefox-i18n-zh-cn                                  # (zh-cn) Mozilla Web Browser
 zen-browser-bin                                       # (!Beta) Performance oriented Firefox-based web browser
+# zen-browser-i18n-zh-cn                              # (zh-cn) Performance oriented Firefox-based web browser
 chromium                                              # Google Open-Source Chrome
 # vivaldi                                               # An advanced browser made with the power user in mind (Besed on chromium)
 
@@ -15,26 +17,25 @@ code                                                  # Offical Arch Linux Open-
 imhex-bin                                             # A Hex Editor for Reverse Engineers
 
 # --------------------------------------------------- // Online Chat
-linuxqq                                               # (!Proprietary) (Chinese) Tencent QQ
-wechat-bin                                            # (!Proprietary) (Chinese) Tencent Wechat
 discord                                               # All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.
 telegram-desktop                                      # New era of messaging
+# element-desktop                                       # Glossy Matrix collaboration client — desktop version.
+# moment                                                # (!Compile) A customizable, keyboard-operable Matrix client. Fork of Mirage
+nheko                                                 # Desktop client for the Matrix protocol
 
 # --------------------------------------------------- // Online Music Client
 # spotify                                               # Spotify GUI client
 spotify-launcher                                      # Spotify GUI client
-splayer-appimage                                      # (!Beta) (Chinese) A Third Netease Music player (Electron)
-# splayer-bin                                        # (Chinese) A Third Netease Music player (Non-Electron)
 
 # --------------------------------------------------- // Online Video Client
-# bilibili-bin                                          # (!high cpu usage) (Chinese) Bilibili GUI client for linux (Based on Electron)
-# bilibili-appimage                                     # (!high cpu usage) (Chinese) Bilibili GUI client for linux (Based on Electron) 
 
 # --------------------------------------------------- // Local Video player
-mpv
+mpv                                                   # a free, open source, and cross-platform media player
+# vlc                                                   # (!X11) Multi-platform MPEG, VCD/DVD, and DivX player
+vlc-git                                               # Multi-platform MPEG, VCD/DVD, and DivX player
 
 # --------------------------------------------------- // Local Music player
-strawberry
+strawberry                                            # A music player aimed at audio enthusiasts and music collectors
 
 # --------------------------------------------------- // Noting
 obsidian                                              # Markdown Noting Editor
@@ -42,12 +43,16 @@ obsidian                                              # Markdown Noting Editor
 # --------------------------------------------------- // Office
 # onlyoffice-bin                                      # (!unstable) An office suite that combines text, spreadsheet and presentation editors
 
-# --------------------------------------------------- // Remote desktop
+# --------------------------------------------------- // Remote connect
 rustdesk-bin                                          # (!wayland exprimental)
+kdeconnect                                            # Adds communication between KDE and your smartphone
 
 # --------------------------------------------------- // Digital Audio Workstation
 # reaper                                                # (!high dpi issue & business)
 # zrythm                                                # (v1) Highly automated and intuitive digital audio workstation
+
+# --------------------------------------------------- // E-Book
+# z-library-bwrap                                       # (!Sandbox) Z-Library Client by Electron
 
 # --------------------------------------------------- // Optional Dependencies
 # lrzip                                                 # LRZ format support for ark

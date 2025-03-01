@@ -1,3 +1,13 @@
+# --------------------------------------------------- // Programming language
+lua51                                                 # Powerful lightweight programming language designed for extending applications
+go                                                    # Core compiler tools for the Go programming language
+rust                                                  # Systems programming language focused on safety, speed and concurrency
+rust-analyzer                                         # Rust compiler front-end for IDEs
+
+# --------------------------------------------------- // ToolChain / Components
+llvm                                                  # The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. 
+mold                                                  # A quicker more effcient alternative to `ld`
+
 # --------------------------------------------------- // Package / Environment management
 # python-conda                                        # OS-agnostic, system-level binary package manager and ecosystem
 npm                                                   # Javascript package manager

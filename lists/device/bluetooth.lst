@@ -1,4 +1,0 @@
-# --------------------------------------------------- // Bluetooth
-bluez                                                  # bluetooth protocol stack
-bluez-utils                                            # bluetooth utility cli
-blueman                                                # bluetooth manager gui

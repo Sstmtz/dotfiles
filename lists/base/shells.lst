@@ -2,9 +2,11 @@
 zsh                                                   # Most suitable for customization
 fish                                                  # Provides an Out-of-the-box experience
 
-# --------------------------------------------------- // Plugins
+# --------------------------------------------------- // Plugin Manager
 zinit                                                 # zsh plugin manager
 # oh-my-zsh-git                                         # zsh plugin manager
+
+# --------------------------------------------------- // Plugins
 # zsh-completions                                       # completions for zsh
 
 # --------------------------------------------------- // Themes
@@ -16,3 +18,12 @@ starship                                              # The minimal, blazing-fas
 # --------------------------------------------------- // Scripts
 pokego-bin                                            # Go version of pokemon-colorscripts
 # pokemon-colorscripts-git                              # prints out colored unicode sprites of pokemon onto your terminal
+
+# NOTICE:
+# I no longer use some of the commented-out softwares; they are kept only for reference.
+#
+# Changelog:
+# `oh-my-zsh-git` has been replaced by `zinit`.
+# `zsh-completions` is now installed via `zinit` instead of using a package manager.
+# `zsh-theme-powerlevel10k-git` has been replaced by `starship`.
+# `pokemon-colorscripts-git` has been replaced by `pokego-bin`.

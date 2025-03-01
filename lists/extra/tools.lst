@@ -1,22 +1,17 @@
-# --------------------------------------------------- // Network
+# --------------------------------------------------- // Tracker & monitor
 wireshark-qt                                          # a network traffic analyzer
 
 # --------------------------------------------------- // Audio
 waylyrics                                             # Show desktop lyrics in a furry way
+easyeffects                                           # Audio Effects for Pipewire applications
 
 # --------------------------------------------------- // Documents
 typst                                                 # A markup-based typesetting system for the sciences
 
 # --------------------------------------------------- // Misc
-# emote                                                 # Emoji Picker
-nvtop                                                 # a cli to monitor nvidia gpu
-intel-gpu-tools                                       # a cli to monitor intel gpu
-
-# --------------------------------------------------- // Customozation
-spicetify-cli                                         # a cli to customize spotify client
-spicetify-marketplace-bin                             # spotify integrated marketplace
-betterdiscordctl-git                                  # a cli to customize discord client
-
-activate-linux-git                                    # The 'Activate Windows' watermark ported to Linux with Xlib and cairo in C                                
-cool-retro-term                                       # (!upstream unmaintained) A good looking terminal emulator which mimics the old cathode display
-kando-bin                                             # A pie menu for the desktop. It will be highly customizable and will allow you to create your own menus and actions.
+# emote                                                 # [optional] Emoji Picker
+nvtop                                                 # A cli to monitor nvidia gpu
+intel-gpu-tools                                       # A cli to monitor intel gpu
+# xcursor-viewer-git                                    # (!upstream unmaintained) Show xcursor preview
+# sptlrx-bin                                            # [optional] Synchronized lyrics in your terminal
+# liteloader-qqnt-bin                                   # A lightweight, simple, and open-source QQNT plugin loader.

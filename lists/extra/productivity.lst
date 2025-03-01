@@ -1,5 +1,6 @@
 # --------------------------------------------------- // IDE
 qtcreator                                             # C++ IDE for developing QT applications
+# android-studio                                        # [optional] The official Android IDE (Stable branch)
 
 # --------------------------------------------------- // Text Editor
 code                                                  # Offical Arch Linux Open-Source release
@@ -9,11 +10,18 @@ code                                                  # Offical Arch Linux Open-
 blender                                               # Open-Source 3D Modeling Software
 
 # --------------------------------------------------- // Drawing
-# gimp                                                  # (!RC) GNU Image Manipulation Program
-krita                                                 # (!hidpi issue)KDE Digital Drawing tool 
+# gimp                                                # GNU Image Manipulation Program
+krita                                                 # KDE Digital Drawing tool 
+inkscape                                              # Professional vector graphics editor
 
 # --------------------------------------------------- // Record & Streaming
 obs-studio                                            # Open-Source Record and Streaming Software
 
 # --------------------------------------------------- // Video Editing
 kdenlive                                              # KDE Open-Source Video Editor
+
+# --------------------------------------------------- // Container / Emulator
+waydroid                                              # A container-based approach to boot a full Android system on a regular Linux system
+
+# Notice:
+# `krita` have scaling issues.

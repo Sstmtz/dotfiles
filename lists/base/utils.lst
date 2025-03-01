@@ -4,6 +4,7 @@ wl-clipboard                                          # command-line copy/paste 
 locate                                                # alternative to locate, faster and compatible with mlocate's database
 ueberzugpp                                            # allows to draw images on terminals by using X11/wayland child windows, sixels, kitty and iterm2..
 chafa                                                 # Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc
+imagemagick                                           # An image viewing/manipulation program
 
 # --------------------------------------------------- // Alternative commands
 eza                                                   # better ls
@@ -24,26 +25,12 @@ transmission-cli                                      # a fast, easy, and free B
 # --------------------------------------------------- // Utilities for nvim
 lazygit                                               # a simple terminal UI for git commands
 lazydocker                                            # a simple terminal UI for docker commands
+tectonic                                              # Modernized, complete, self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive
+mermaid-cli                                           # Generate images from from Mermaid files
 
 # --------------------------------------------------- // Common Tools
 swappy                                                # A Wayland native snapshot editing tool
 downgrade                                             # a cli to downgrade packages
 trash-cli-git                                         # a cli to manage trash files
-
-# Repos:
-######### Enhanced commands
-# [eza](https://github.com/eza-community/eza)
-# [zoxide](https://github.com/ajeetdsouza/zoxide)
-# [bat](https://github.com/sharkdp/bat)
-# [ripgrep](https://github.com/BurntSushi/ripgrep)
-# [fd](https://github.com/sharkdp/fd)
-######### Utilities for yazi
-# [glow](https://github.com/charmbracelet/glow)
-# [miller](https://github.com/johnkerl/miller)
-# [ouch](https://github.com/ouch-org/ouch)
-# [mediainfo](https://github.com/MediaArea/MediaInfo)
-# [exiftool](https://github.com/exiftool/exiftool)
-# [transmission](https://github.com/transmission/transmission)
-######### Utilities for nvim
-# [lazygit](https://github.com/jesseduffield/lazygit)
-# [lazydocker](https://github.com/jesseduffield/lazydocker)
+lostfiles                                             # Find orphaned files not owned by any Arch packages
+# fancy-cat                                             # [optional] PDF viewer for terminals using the Kitty image protocol

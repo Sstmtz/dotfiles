@@ -19,16 +19,5 @@ cava                                                  # audio visualizer
 btop                                                  # a monitor
 htop                                                  # a monitor
 
-# Repos:
-######### Terminal emulator
-# [kitty](https://github.com/kovidgoyal/kitty)
-# [alacritty](https://github.com/alacritty/alacritty)
-######### Terminal multiplexer
-# [tmux](https://github.com/tmux/tmux)
-# [zellij](https://github.com/zellij-org/zellij)
-######### Terminal tools
-# [vim](https://github.com/vim/vim)
-# [neovim](https://github.com/neovim/neovim)
-# [emacs](https://github.com/emacs-mirror/emacs)
-# [yazi](https://github.com/sxyazi/yazi)
-# [ranger](https://github.com/ranger/ranger)
+# NOTICE:
+# `fancy-cat` requires manual installation
