@@ -5,19 +5,31 @@ prepend_keymap = [
     ".",
     "s",
   ], run = "plugin what-size --args='--clipboard'", desc = "Calc size of selection or cwd" },
+
   # Lil-Dank/lazygit.yazi, need install `lazygit`
   { on = [
     "g",
     "i",
   ], run = "plugin lazygit", desc = "run lazygit" },
-  # yazi-rs/plugins:hide-preview
+
+  # [!deprecated] yazi-rs/plugins:hide-preview
+  # { on = [
+  #   "T",
+  # ], run = "plugin hide-preview", desc = "Hide or show preview" },
+
+  # [!deprecated] yazi-rs/plugins:max-preview
+  # { on = [
+  #   "M",
+  # ], run = "plugin max-preview", desc = "Maximize or restore preview" },
+
+  # yazi-rs/plugins:toggle-pane
   { on = [
-    "T",
-  ], run = "plugin hide-preview", desc = "Hide or show preview" },
-  # yazi-rs/plugins:max-preview
+    "H",
+  ], run = "plugin toggle-pane min-preview", desc = "Show or hide the preview pane" },
   { on = [
     "M",
-  ], run = "plugin max-preview", desc = "Maximize or restore preview" },
+  ], run = "plugin toggle-pane max-preview", desc = "Maximize or restore the preview pane" },
+
   # grappas/wl-clipboard.yazi, need install `wl-clipboard`
   { on = [
     "<C-y>",

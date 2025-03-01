@@ -15,7 +15,7 @@ prepend_previewers = [
   { mime = "application/x-xz", run = "ouch" },            # .xz, .lzma
 
   # boydaihungst/mediainfo.yazi, need install `mediainfo` and `ffmpeg`
-  { mime = "image/*", run = "mediainfo" },
+  { mime = "image/*", run = "mediainfo" }, # .png/.jpg
   { mime = "video/*", run = "mediainfo" }, # .mkv
   # { mime = "audio/*", run = "mediainfo" },
   { mime = "application/subrip", run = "mediainfo" }, # .srt
@@ -26,3 +26,8 @@ prepend_previewers = [
   # kirasok/torrent-preview.yazi, need install `transmission-cli`
   { mime = "application/x-bittorrent", run = "torrent-preview" }, # .torrent
 ]
+
+[preview]
+# Change them to your desired values
+max_width = 1000
+max_height = 1000

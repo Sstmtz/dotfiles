@@ -3,7 +3,7 @@
 use = "tokyo-night"
 dark = "tokyo-night" # For Yazi 0.4 and above
 
-# copy from https://github.com/catppuccin/yazi/blob/main/themes/mocha/catppuccin-mocha-blue.toml
+# copied from https://github.com/catppuccin/yazi/blob/main/themes/mocha/catppuccin-mocha-blue.toml
 [manager]
 cwd = { fg = "#94e2d5" }
 
