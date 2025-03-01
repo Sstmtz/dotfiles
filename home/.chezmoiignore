@@ -1,6 +1,8 @@
 key.txt.age
 .ssh/
 
+.config/nvim/
+
 .config/alactritty/
 .config/zellij/
 .config/mpv/
@@ -15,7 +17,9 @@ key.txt.age
 .config/clangd/
 .clang-format
 
-bilibili-flags.conf
-chromium-flags.conf
-electron-flags.conf
-qq-flags.conf
+.config/bilibili-flags.conf
+.config/chromium-flags.conf
+.config/electron-flags.conf
+.config/qq-flags.conf
+
+.local/share/applications/wechat.desktop
