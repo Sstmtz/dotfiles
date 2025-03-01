@@ -57,6 +57,11 @@ alias gd='git diff'
 alias gl='git log'
 alias gp='git push'
 
+# Kitty
+alias kimage='kitty +kitten icat' # render image in kitty (support .png/.jpg/.gif/...)
+alias knotify='kitty +kitten notify' # send desktop notification by kitty
+alias kbackgroud='kitty +kitten panel --edge=background' #  display <your_program_output_panel> as your desktop background (such as htop, btop...)
+
 # █▀ █▀▀ ▀█▀
 # ▄█ ██▄ ░█░
 # set
