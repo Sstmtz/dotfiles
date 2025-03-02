@@ -1,5 +1,18 @@
 key.txt.age
+
+#================================ Private ===================================#
+# WARNING: These are personal encrypted files or directories, PLEASE DO NOT ATTEMPT to MODIFY THEM,
+#          otherwise errors may occur.
+{{- if ne .git_username "Sstmtz" }}
+
 .ssh/
+
+{{- end }}
+
+
+#================================ Optional ===================================#
+# NOTE: These are optional items, just add a # in front of them and then run chezmoi apply
+{{- if ne .git_username "Sstmtz" }}
 
 .config/nvim/
 
@@ -23,3 +36,6 @@ key.txt.age
 .config/qq-flags.conf
 
 .local/share/applications/wechat.desktop
+.local/share/applications/vmware-workstation.desktop
+
+{{- end }}

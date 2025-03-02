@@ -143,6 +143,9 @@ alias kbackgroud='kitty +kitten panel --edge=background' #  display <your_progra
 # ██▄ █░█ █▀▀ █▄█ █▀▄ ░█░
 # export
 
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US
+
 export EDITOR='nvim' # set default editor
 export PATH=$PATH:$HOME/.local/share/bin # add local bin to PATH
 export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/docker.sock # local docker socket

@@ -3,7 +3,7 @@ CompileFlags:
   Add:
     - --no-cuda-version-check
     - -Wno-unknown-warning-option
-    - -D__clangd__  # add your custom flags
+    - -D__clangd__ # add your custom flags
   Remove:
     - -forward-unknown-to-host-compiler
     - -expt-*

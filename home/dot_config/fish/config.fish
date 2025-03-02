@@ -66,6 +66,9 @@ alias kbackgroud='kitty +kitten panel --edge=background' #  display <your_progra
 # ▄█ ██▄ ░█░
 # set
 
+set LANG en_US.UTF-8
+set LANGUAGE en_US
+
 # Path related
 set PATH $PATH $HOME/.local/share/bin # add local bin to PATH
 set DOCKER_HOST unix://$XDG_RUNTIME_DIR/docker.sock # set local docker socket

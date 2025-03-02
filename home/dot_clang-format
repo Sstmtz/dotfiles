@@ -1,5 +1,5 @@
 # https://clang.llvm.org/docs/ClangFormatStyleOptions.html
-# copy from https://github.com/archibate/vimrc/blob/nvim-2/dotfiles/.clang-format
+# copied from https://github.com/archibate/vimrc/blob/nvim-2/dotfiles/.clang-format
 BasedOnStyle: LLVM
 Standard: c++20
 IndentWidth: 4
@@ -115,9 +115,10 @@ ReferenceAlignment: Pointer
 SpaceAroundPointerQualifiers: After
 ReflowComments: true
 QualifierAlignment: Custom
-QualifierOrder: ['static', 'inline', 'friend', 'constexpr', 'type', 'const', 'volatile']
+QualifierOrder:
+  ["static", "inline", "friend", "constexpr", "type", "const", "volatile"]
 IncludeCategories:
-- Regex:           'std\.hpp>$'
-  Priority:        1
-- Regex:           '.*'
-  Priority:        2
+  - Regex: 'std\.hpp>$'
+    Priority: 1
+  - Regex: ".*"
+    Priority: 2
